@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local state
+.claude/
+
+# Local server logs
+/tmp/
+*.log
+
+# Build / scratch
+data/questions-raw.json

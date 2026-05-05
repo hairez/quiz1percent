@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>The 1% Club — Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ['Fraunces', 'serif'],
+              sans: ['Geist', 'ui-sans-serif', 'system-ui'],
+              mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular'],
+            },
+            colors: {
+              ink: {
+                950: '#08080a',
+                900: '#0d0d10',
+                800: '#15151a',
+                700: '#1f1f26',
+                600: '#2a2a32',
+                500: '#3a3a44',
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html, body { background: #08080a; }
+      html { overflow-x: hidden; }
+      body {
+        font-family: 'Geist', ui-sans-serif, system-ui, sans-serif;
+        color: #e7e5e4;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+      }
+      main, header, footer {
+        width: 100%;
+        max-width: 42rem;
+        box-sizing: border-box;
+        min-width: 0;
+      }
+      /* Prevent any descendant from busting the container width */
+      main * { min-width: 0; }
+      /* Subtle film grain via SVG noise */
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.06;
+        mix-blend-mode: overlay;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.6'/></svg>");
+        z-index: 1;
+      }
+      main, header, footer { position: relative; z-index: 2; }
+      .font-display { font-family: 'Fraunces', serif; font-feature-settings: 'ss01' on; }
+      .font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+      .timer-bar {
+        height: 3px;
+        background: linear-gradient(90deg, #10b981, #f59e0b 50%, #f43f5e);
+        transform-origin: left center;
+        will-change: transform;
+      }
+      .ans-btn {
+        transition: all 120ms ease;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .ans-btn:hover { border-color: rgba(255, 255, 255, 0.2); background: rgba(255, 255, 255, 0.03); }
+      .ans-btn.selected {
+        border-color: rgb(245, 158, 11);
+        background: rgba(245, 158, 11, 0.08);
+        color: #fde68a;
+      }
+      .ans-btn.correct {
+        border-color: rgb(16, 185, 129);
+        background: rgba(16, 185, 129, 0.10);
+        color: #d1fae5;
+      }
+      .ans-btn.wrong {
+        border-color: rgb(244, 63, 94);
+        background: rgba(244, 63, 94, 0.10);
+        color: #fecdd3;
+      }
+      .ans-btn.dim { opacity: 0.45; }
+      .pulse-once { animation: pulse-once 600ms ease; }
+      @keyframes pulse-once {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.015); }
+        100% { transform: scale(1); }
+      }
+      .slide-up { animation: slide-up 360ms cubic-bezier(0.2, 0.8, 0.2, 1); }
+      @keyframes slide-up {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      input.text-answer {
+        background: transparent;
+        border: 1px solid rgba(255,255,255,0.12);
+        color: #fafaf9;
+      }
+      input.text-answer:focus {
+        outline: none;
+        border-color: rgb(245, 158, 11);
+        background: rgba(245, 158, 11, 0.04);
+      }
+      .difficulty-badge {
+        font-family: 'JetBrains Mono', monospace;
+        letter-spacing: 0.06em;
+        font-size: 0.72rem;
+        padding: 0.18rem 0.5rem;
+        border-radius: 999px;
+        text-transform: uppercase;
+      }
+      /* keep image from blowing out the layout */
+      .question-image {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        max-height: 50vh;
+        height: auto;
+        object-fit: contain;
+        border-radius: 0.5rem;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.06);
+      }
+      kbd {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.7rem;
+        padding: 0.1rem 0.35rem;
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 4px;
+        color: #d6d3d1;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <header class="px-6 pt-8 pb-4 max-w-2xl mx-auto flex items-center justify-between">
+      <div class="font-display text-xl tracking-tight text-stone-200">
+        The <span class="text-amber-400">1%</span> Club
+        <span class="block font-sans text-xs uppercase tracking-[0.18em] text-stone-500 mt-0.5">Practice</span>
+      </div>
+      <div id="header-stats" class="font-mono text-[11px] text-stone-500 hidden sm:block"></div>
+    </header>
+
+    <main id="app" class="px-6 pb-24 max-w-2xl mx-auto"></main>
+
+    <footer class="px-6 py-8 max-w-2xl mx-auto text-[11px] text-stone-600 leading-relaxed">
+      Practice questions sourced from publicly available recaps of past episodes
+      of The 1% Club (UK / US). Unofficial fan-made tool — the format is owned by BBC Studios.
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
