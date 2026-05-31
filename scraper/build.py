@@ -242,10 +242,13 @@ def parse_answer(answer_raw: str) -> tuple[str, str]:
 _LETTER_PREFIX_RE = re.compile(r"^\(?([A-E])[\)\.\]:]\s*(.+)$", re.I)
 # Bare-letter answer ("A", "A.", "(B)") with nothing meaningful after.
 _BARE_LETTER_RE = re.compile(r"^\(?([A-E])[\)\.\]:]?\.?\s*$", re.I)
-# "Answer B is the only tray..." — source prose where the letter is followed
-# by the explanation in the same sentence. Only used when no other letter
-# extractor matches.
-_ANSWER_WORD_RE = re.compile(r"^Answer\s+([A-E])\b", re.I)
+# "Answer B is the only tray..." / "Answer B: explanation" — source prose
+# where the letter is followed by an "is"/"was" verb or a colon/equals. Used
+# only as a last-resort fallback after the other letter extractors fail.
+# The trailing verb/punctuation guard keeps us from false-positive matching
+# prose like "Answer A is wrong because B is right" — the first sentence
+# would still resolve to A, so anything looser than this is unsafe.
+_ANSWER_PROSE_RE = re.compile(r"^Answer\s+([A-E])\b(?:\s+(?:is|was)\b|\s*[:=])", re.I)
 _INLINE_OPTS_RE = re.compile(r"\(?([A-E])[\)\.\]]\s+([^()]+?)(?=\s*\(?[A-E][\)\.\]]\s|$)")
 
 
@@ -272,7 +275,7 @@ def extract_correct_letter(answer_seg: str) -> str | None:
     m = _LETTER_PREFIX_RE.match(s)
     if m:
         return m.group(1).upper()
-    m = _ANSWER_WORD_RE.match(s)
+    m = _ANSWER_PROSE_RE.match(s)
     if m:
         return m.group(1).upper()
     return None
@@ -307,27 +310,24 @@ def expand_accepted(answer_segment: str) -> list[str]:
             if base.strip().lower() == w:
                 answers.add(num)
                 break
-    # "<number> <unit>" or "<number-word> <unit>" answers — also accept the
-    # bare number, the number-word form, and the swapped variant. So "60 days"
-    # → "60", "sixty", "sixty days"; "eight lions" → "8", "8 lions", "lions".
-    m = re.fullmatch(r"\s*(\d{1,3}(?:,\d{3})*|\d+)\s+([a-z][a-z' ]*)", base, flags=re.I)
+    # "<integer> <unit>" answers — also accept the bare integer and the
+    # number-word form. So "60 days" → "60", "sixty", "sixty days".
+    # Only the integer-first form is handled: a word-first branch would
+    # over-match band/title answers like "One Direction" or "Four Seasons"
+    # and let users score by typing "1" or "4". The unit character class
+    # includes both straight and smart apostrophes so "10 o'clock" works.
+    m = re.fullmatch(r"\s*(\d{1,3}(?:,\d{3})*|\d+)\s+([a-z][a-z'’ ]*)", base, flags=re.I)
     if m:
         num_raw, unit = m.group(1), m.group(2).strip()
+        unit_no_quotes = re.sub(r"['’]", "", unit)
         num_plain = num_raw.replace(",", "")
         answers.add(num_raw)
         answers.add(num_plain)
         for word in NUMBER_WORDS.get(num_plain, []):
             answers.add(word)
             answers.add(f"{word} {unit}")
-    else:
-        m = re.fullmatch(r"\s*([a-z-]+)\s+([a-z][a-z' ]*)", base, flags=re.I)
-        if m:
-            word, unit = m.group(1).lower(), m.group(2).strip()
-            for num, words in NUMBER_WORDS.items():
-                if word in words:
-                    answers.add(num)
-                    answers.add(f"{num} {unit}")
-                    break
+            if unit_no_quotes != unit:
+                answers.add(f"{word} {unit_no_quotes}")
     # Strip quotes/apostrophes
     answers.add(re.sub(r"['’\"“”]", "", base))
     # Letter-sequence answers ("C, A, D, B") — also accept concatenated form.
@@ -472,8 +472,42 @@ def canonicalize(raw: dict) -> dict | None:
     override = MANUAL_OVERRIDES.get(record["id"])
     if override:
         record.update(override)
+        _validate_canonical(record)
 
     return record
+
+
+def _validate_canonical(record: dict) -> None:
+    """Raise if a canonical record violates the type/answer invariants.
+
+    Cheap defense for MANUAL_OVERRIDES: an override that flips ``type`` but
+    forgets to null out the opposite type's fields would silently produce a
+    hybrid record that smoke.js does not catch.
+    """
+    rid = record["id"]
+    rtype = record.get("type")
+    if rtype == "mc":
+        opts = record.get("options")
+        idx = record.get("correct_index")
+        if not opts or idx is None:
+            raise ValueError(f"{rid}: mc record missing options/correct_index")
+        if not (0 <= idx < len(opts)):
+            raise ValueError(f"{rid}: correct_index {idx} out of range for {len(opts)} options")
+        if record.get("accepted_answers") is not None:
+            raise ValueError(f"{rid}: mc record must have accepted_answers=None")
+        if opts[idx] != record.get("correct_text"):
+            raise ValueError(
+                f"{rid}: correct_text {record.get('correct_text')!r} != options[{idx}] {opts[idx]!r}"
+            )
+    elif rtype == "text":
+        if not record.get("accepted_answers"):
+            raise ValueError(f"{rid}: text record missing accepted_answers")
+        if record.get("options") is not None or record.get("correct_index") is not None:
+            raise ValueError(f"{rid}: text record must have options=None and correct_index=None")
+    else:
+        raise ValueError(f"{rid}: invalid type {rtype!r}")
+    if not record.get("correct_text"):
+        raise ValueError(f"{rid}: empty correct_text")
 
 
 def download_image(url: str, out_path: Path, session: requests.Session) -> tuple[bool, str]:
@@ -551,6 +585,17 @@ def main():
         else:
             canonical.append(c)
     print(f"canonicalized: {len(canonical)} (dropped {len(canon_drops)})")
+
+    # Fail loud if any MANUAL_OVERRIDES key never matched a canonicalized id
+    # (typo, rename, or a question that was dropped earlier in canonicalize()
+    # — without this check the override is silently ignored).
+    applied = {r["id"] for r in canonical}
+    missing = sorted(set(MANUAL_OVERRIDES) - applied)
+    if missing:
+        raise SystemExit(
+            f"MANUAL_OVERRIDES has {len(missing)} ids that did not match any "
+            f"canonicalized record: {missing}"
+        )
 
     # Dedupe across editions
     kept, dups = dedupe(canonical)

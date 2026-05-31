@@ -6,7 +6,7 @@
 - Final after image-required check: **639**
 
 - Final by show: {'uk': 244, 'us': 395}
-- Final by type: {'mc': 270, 'text': 369}
+- Final by type: {'mc': 278, 'text': 361}
 - Final with images: **362/639**
 
 ## Difficulty distribution

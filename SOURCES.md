@@ -15,6 +15,6 @@ Each question's `source_url` field links back to its origin.
 - Total: **639** questions
 - UK: 244 · US: 395
 - With image: 362
-- Multiple-choice: 270 · Free-text: 369
+- Multiple-choice: 278 · Free-text: 361
 
 Practice tool is unofficial. The 1% Club format is owned by BBC Studios.
