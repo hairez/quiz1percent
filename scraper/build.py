@@ -35,11 +35,18 @@ UA = (
 # heuristic we have. Keyed by canonical question id. Each entry is merged into
 # the canonicalized record (last). Add an entry only after confirming the
 # question is unplayable as parsed. See CLAUDE.md "Parser gotchas".
+#
+# Recurring failure mode for the entries below: comingsoon writes the answer
+# as a full prose sentence ("The hybrid instrument is part trombone and part
+# tambourine, so it's a 'Trombourine'"). parse_answer takes that sentence as
+# the answer segment, expand_accepted stores it verbatim, and the player has
+# to type the whole thing to score. The fix is either to register the real
+# MC options here (when the source <li> options weren't picked up) or to
+# replace the answer with the bare word/letter buried in the prose.
+_PLACEHOLDER_NOTE = "Options visible in image only — pick the lettered choice"
+
 MANUAL_OVERRIDES: dict[str, dict] = {
-    # Image shows 3 trays (A/B/C). Source answer reads
-    #   "Answer B is the only tray that has three different vegetables..."
-    # which slips past extract_correct_letter (no '(B)' / 'B:' prefix) and
-    # lands the whole sentence as accepted_answers.
+    # Image shows 3 trays (A/B/C); source answer is "Answer B is the only tray..."
     "us-s2-e13-80": {
         "type": "mc",
         "options": ["(A)", "(B)", "(C)"],
@@ -47,12 +54,9 @@ MANUAL_OVERRIDES: dict[str, dict] = {
         "accepted_answers": None,
         "correct_text": "(B)",
         "explanation": "Tray B is the only one with three different vegetables, milk, and no bread.",
-        "notes": "Options visible in image only — pick the lettered choice",
+        "notes": _PLACEHOLDER_NOTE,
     },
-    # Answer is "N" but it's buried in the explanation
-    # ("...so N is in the same position"). parse_answer's first-sentence split
-    # captures the question's setup ("The letters are currently P, R, N, D, S, L.")
-    # as the answer instead.
+    # Answer "N" is buried in the explanation, not the first sentence.
     "us-s2-e9-25": {
         "type": "text",
         "options": None,
@@ -61,10 +65,7 @@ MANUAL_OVERRIDES: dict[str, dict] = {
         "correct_text": "N",
         "explanation": "The letters are currently P, R, N, D, S, L. In alphabetical order, the letters are D, L, N, P, R, S – so N is in the same position.",
     },
-    # Source answer is the full explanation sentence
-    # ("The word "COMB-OVER" is revealed when you move the combo over..."),
-    # which expand_accepted stored verbatim as the only accepted answer,
-    # making any plausible user input ("comb-over", "combover") fail.
+    # Free-text answer is the word COMB-OVER; source stores the explanation sentence.
     "us-s2-e6-50": {
         "type": "text",
         "options": None,
@@ -72,6 +73,101 @@ MANUAL_OVERRIDES: dict[str, dict] = {
         "accepted_answers": ["comb-over", "comb over", "combover"],
         "correct_text": "COMB-OVER",
         "explanation": "The word “COMB-OVER” is revealed when you move the combo over and interlock the teeth.",
+    },
+    # 3-option compass image, correct = B.
+    "uk-s4-e8-40": {
+        "type": "mc",
+        "options": ["(A)", "(B)", "(C)"],
+        "correct_index": 1,
+        "accepted_answers": None,
+        "correct_text": "(B)",
+        "explanation": "In B, when the N and the S come into the right positions, the E and the W are back to front and in the wrong positions.",
+        "notes": _PLACEHOLDER_NOTE,
+    },
+    # Real MC with text options; source <li>s weren't picked up by parse.py.
+    "us-s1-e1-50": {
+        "type": "mc",
+        "options": ["One with 5 petals", "One with 50 petals", "One with 555 petals"],
+        "correct_index": 1,
+        "accepted_answers": None,
+        "correct_text": "One with 50 petals",
+        "explanation": "“He loves me not” is said when plucking even-numbered petals, and the only even-numbered flower has 50 petals.",
+        "notes": "",
+    },
+    # Free-text numeric answer ($2,015) buried in the explanation.
+    "us-s2-e2-1": {
+        "type": "text",
+        "options": None,
+        "correct_index": None,
+        "accepted_answers": ["2015", "2,015", "$2015", "$2,015"],
+        "correct_text": "$2,015",
+        "explanation": "Jerry takes the first digit of the year and doubles it to get the first number. Then he adds the remaining numbers together to get the rest of the price. Doubling the 1 in 1951 gets you 2, and 9 + 5 + 1 = 15, for a total of $2,015.",
+    },
+    # Real MC with text options.
+    "us-s2-e4-50": {
+        "type": "mc",
+        "options": [
+            "Senior ticket purchased June 29",
+            "General Admission ticket purchased June 28",
+            "VIP ticket purchased June 27",
+            "Meet and Greet ticket purchased June 25",
+        ],
+        "correct_index": 0,
+        "accepted_answers": None,
+        "correct_text": "Senior ticket purchased June 29",
+        "explanation": "The Senior ticket, even without the discount, is the cheapest, at $115. General Admission with no discount would be $125, VIP with discount is $175, and a Meet and Greet ticket with discount is $250.",
+        "notes": "",
+    },
+    "us-s2-e6-90": {
+        "type": "mc",
+        "options": ["Saxaccordion", "Flutanjo", "Trombourine"],
+        "correct_index": 2,
+        "accepted_answers": None,
+        "correct_text": "Trombourine",
+        "explanation": "The hybrid instrument is part trombone and part tambourine, so it’s a “Trombourine”.",
+        "notes": "",
+    },
+    "us-s2-e6-80": {
+        "type": "mc",
+        "options": ["Jane", "Billy", "Frank"],
+        "correct_index": 1,
+        "accepted_answers": None,
+        "correct_text": "Billy",
+        "explanation": "The only person whose smile would make that shape of bite is Billy, since he’s missing his two front teeth.",
+        "notes": "",
+    },
+    # Image has 2 lettered pairs (A, B); answer = the second pair.
+    "us-s2-e6-70": {
+        "type": "mc",
+        "options": ["(A)", "(B)"],
+        "correct_index": 1,
+        "accepted_answers": None,
+        "correct_text": "(B)",
+        "explanation": "Only the second pair has the character with the triangle chest piece.",
+        "notes": _PLACEHOLDER_NOTE,
+    },
+    # Image has 3 invitations (A, B, C); answer = Taylor and Morgan = C.
+    "us-s2-e6-40": {
+        "type": "mc",
+        "options": ["(A)", "(B)", "(C)"],
+        "correct_index": 2,
+        "accepted_answers": None,
+        "correct_text": "(C)",
+        "explanation": "Taylor and Morgan’s wedding date is February 30th, and no one will be able to make it on that date since it doesn’t exist.",
+        "notes": _PLACEHOLDER_NOTE,
+    },
+    # Free-text; answer is two letters (R and I).
+    "us-s2-e9-80": {
+        "type": "text",
+        "options": None,
+        "correct_index": None,
+        "accepted_answers": ["r and i", "i and r", "r, i", "i, r", "ri", "ir"],
+        "correct_text": "R and I",
+        "explanation": "The only two letters that make a word are R and I, making the pendant read “100% THAT RICH”.",
+    },
+    # Source recap omitted the question stem entirely; restore it.
+    "uk-s4-e13-1": {
+        "question_text": "What new word links the capitalised words below?\n\nMy SON TED ate raw FOOD and got SICK, then went to BED with me by his SIDE.",
     },
 }
 
@@ -193,7 +289,8 @@ def expand_accepted(answer_segment: str) -> list[str]:
     """Generate a list of acceptable user answers (case-insensitive matching).
 
     Strips leading articles, strips trailing punctuation, adds number-word and
-    letter-sequence variants.
+    letter-sequence variants, and accepts the bare number from "<n> <unit>"
+    answers ("60 days" → also accept "60", "sixty", "sixty days").
     """
     base = answer_segment.strip().rstrip(".!?,;: ")
     answers = {base}
@@ -210,6 +307,27 @@ def expand_accepted(answer_segment: str) -> list[str]:
             if base.strip().lower() == w:
                 answers.add(num)
                 break
+    # "<number> <unit>" or "<number-word> <unit>" answers — also accept the
+    # bare number, the number-word form, and the swapped variant. So "60 days"
+    # → "60", "sixty", "sixty days"; "eight lions" → "8", "8 lions", "lions".
+    m = re.fullmatch(r"\s*(\d{1,3}(?:,\d{3})*|\d+)\s+([a-z][a-z' ]*)", base, flags=re.I)
+    if m:
+        num_raw, unit = m.group(1), m.group(2).strip()
+        num_plain = num_raw.replace(",", "")
+        answers.add(num_raw)
+        answers.add(num_plain)
+        for word in NUMBER_WORDS.get(num_plain, []):
+            answers.add(word)
+            answers.add(f"{word} {unit}")
+    else:
+        m = re.fullmatch(r"\s*([a-z-]+)\s+([a-z][a-z' ]*)", base, flags=re.I)
+        if m:
+            word, unit = m.group(1).lower(), m.group(2).strip()
+            for num, words in NUMBER_WORDS.items():
+                if word in words:
+                    answers.add(num)
+                    answers.add(f"{num} {unit}")
+                    break
     # Strip quotes/apostrophes
     answers.add(re.sub(r"['’\"“”]", "", base))
     # Letter-sequence answers ("C, A, D, B") — also accept concatenated form.

@@ -1551,7 +1551,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "60 days"
+      "60",
+      "60 days",
+      "sixty",
+      "sixty days"
     ],
     "correct_text": "60 days",
     "explanation": "60 is the first number that is divisible by four, five and six.",
@@ -1786,6 +1789,7 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
+      "65",
       "65 steps"
     ],
     "correct_text": "65 steps",
@@ -2308,17 +2312,19 @@
     "difficulty": 40,
     "question_text": "Which of these images can never produce a correct compass image, no matter how many times you rotate it or flip it?",
     "question_image": "questions/uk-s4-e8-40.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "in b, when the nand the s come into the right positions, the e and the w are back to front and in the wrong positions"
+    "type": "mc",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)"
     ],
-    "correct_text": "In B, when the Nand the S come into the right positions, the E and the W are back to front and in the wrong positions",
-    "explanation": "",
+    "correct_index": 1,
+    "accepted_answers": null,
+    "correct_text": "(B)",
+    "explanation": "In B, when the N and the S come into the right positions, the E and the W are back to front and in the wrong positions.",
     "source_url": "https://www.comingsoon.net/guides/features/1911071-1-percent-club-questions-answers-uk-season-4-series-2025",
     "confidence": "high",
-    "notes": ""
+    "notes": "Options visible in image only — pick the lettered choice"
   },
   {
     "id": "uk-s4-e8-35",
@@ -3822,7 +3828,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "8 lions"
+      "8",
+      "8 lions",
+      "eight",
+      "eight lions"
     ],
     "correct_text": "8 lions",
     "explanation": "If 3 rhinos = 2 hippos and 4 lions = 2 hippos, then 6 rhinos = 8 lions.",
@@ -3882,8 +3891,12 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
+      "10",
       "10 oclock",
-      "10 o’clock"
+      "10 o’clock",
+      "ten",
+      "ten oclock",
+      "ten o’clock"
     ],
     "correct_text": "10 o’clock",
     "explanation": "If the hour hand is on 10 and the minute hands in on 12, then the time is 10 o’clock.",
@@ -3897,7 +3910,7 @@
     "season": 4,
     "episode": 13,
     "difficulty": 1,
-    "question_text": "My SON TED ate raw FOOD and got SICK, then went to BED with me by his SIDE\n\nMy SON TED ate raw FOOD and got SICK, then went to BED with me by his SIDE.",
+    "question_text": "What new word links the capitalised words below?\n\nMy SON TED ate raw FOOD and got SICK, then went to BED with me by his SIDE.",
     "question_image": null,
     "type": "text",
     "options": null,
@@ -5220,15 +5233,16 @@
     "difficulty": 50,
     "question_text": "In the classic game, if you say “He loves me” while plucking a flower’s first petal, which flower would end with “He loves me not”?",
     "question_image": null,
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "he loves me not is said when plucking even-numbered petals, and the only even-numbered flower has 50 petals",
-      "“he loves me not” is said when plucking even-numbered petals, and the only even-numbered flower has 50 petals"
+    "type": "mc",
+    "options": [
+      "One with 5 petals",
+      "One with 50 petals",
+      "One with 555 petals"
     ],
-    "correct_text": "“He loves me not” is said when plucking even-numbered petals, and the only even-numbered flower has 50 petals",
-    "explanation": "",
+    "correct_index": 1,
+    "accepted_answers": null,
+    "correct_text": "One with 50 petals",
+    "explanation": "“He loves me not” is said when plucking even-numbered petals, and the only even-numbered flower has 50 petals.",
     "source_url": "https://www.comingsoon.net/guides/features/1788741-1-percent-club-questions-answers-tonight-last-night-tv-show",
     "confidence": "high",
     "notes": ""
@@ -6695,7 +6709,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "3 feet"
+      "3",
+      "3 feet",
+      "three",
+      "three feet"
     ],
     "correct_text": "3 feet",
     "explanation": "The boat rises with the tide, and so does the ladder.",
@@ -7312,7 +7329,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "8 days"
+      "8",
+      "8 days",
+      "eight",
+      "eight days"
     ],
     "correct_text": "8 days",
     "explanation": "On the 8th day, it climbs up the final 3 feet and is out of the well.",
@@ -9860,10 +9880,13 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "jerry takes the first digit of the year and doubles it to get the first number"
+      "2015",
+      "2,015",
+      "$2015",
+      "$2,015"
     ],
-    "correct_text": "Jerry takes the first digit of the year and doubles it to get the first number",
-    "explanation": "Then he adds the remaining numbers together to get the rest of the price. Doubling the 1 in 1951 gets you 2, and 9 + 5 + 1 = 15, for a total of $2,015.",
+    "correct_text": "$2,015",
+    "explanation": "Jerry takes the first digit of the year and doubles it to get the first number. Then he adds the remaining numbers together to get the rest of the price. Doubling the 1 in 1951 gets you 2, and 9 + 5 + 1 = 15, for a total of $2,015.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -10287,15 +10310,17 @@
     "difficulty": 50,
     "question_text": "Which ticket would be the least expensive for the concert shown below?",
     "question_image": "questions/us-s2-e4-50.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "senior ticket, even without the discount, is the cheapest, at $115",
-      "the senior ticket, even without the discount, is the cheapest, at $115"
+    "type": "mc",
+    "options": [
+      "Senior ticket purchased June 29",
+      "General Admission ticket purchased June 28",
+      "VIP ticket purchased June 27",
+      "Meet and Greet ticket purchased June 25"
     ],
-    "correct_text": "The Senior ticket, even without the discount, is the cheapest, at $115",
-    "explanation": "General Admission with no discount would be $125, VIP with discount is $175, and a Meet and Greet ticket with discount is $250.",
+    "correct_index": 0,
+    "accepted_answers": null,
+    "correct_text": "Senior ticket purchased June 29",
+    "explanation": "The Senior ticket, even without the discount, is the cheapest, at $115. General Admission with no discount would be $125, VIP with discount is $175, and a Meet and Greet ticket with discount is $250.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -10838,16 +10863,16 @@
     "difficulty": 90,
     "question_text": "A keytar gets its name because it’s part keyboard and part guitar. What is the name of the hybrid instrument below?",
     "question_image": "questions/us-s2-e6-90.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "hybrid instrument is part trombone and part tambourine, so it’s a “trombourine”",
-      "the hybrid instrument is part trombone and part tambourine, so its a trombourine",
-      "the hybrid instrument is part trombone and part tambourine, so it’s a “trombourine”"
+    "type": "mc",
+    "options": [
+      "Saxaccordion",
+      "Flutanjo",
+      "Trombourine"
     ],
-    "correct_text": "The hybrid instrument is part trombone and part tambourine, so it’s a “Trombourine”",
-    "explanation": "",
+    "correct_index": 2,
+    "accepted_answers": null,
+    "correct_text": "Trombourine",
+    "explanation": "The hybrid instrument is part trombone and part tambourine, so it’s a “Trombourine”.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -10860,16 +10885,16 @@
     "difficulty": 80,
     "question_text": "One of the kids pictured below took a bite out of a this slice of pizza. Who was it?",
     "question_image": "questions/us-s2-e6-80.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "only person whose smile would make that shape of bite is billy, since he’s missing his two front teeth",
-      "the only person whose smile would make that shape of bite is billy, since hes missing his two front teeth",
-      "the only person whose smile would make that shape of bite is billy, since he’s missing his two front teeth"
+    "type": "mc",
+    "options": [
+      "Jane",
+      "Billy",
+      "Frank"
     ],
-    "correct_text": "The only person whose smile would make that shape of bite is Billy, since he’s missing his two front teeth",
-    "explanation": "",
+    "correct_index": 1,
+    "accepted_answers": null,
+    "correct_text": "Billy",
+    "explanation": "The only person whose smile would make that shape of bite is Billy, since he’s missing his two front teeth.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -10882,17 +10907,18 @@
     "difficulty": 70,
     "question_text": "Joey loves to take apart this action figures and use their parts to make new ones. Which pair of figures below did he use parts from to make the one pictured here?",
     "question_image": "questions/us-s2-e6-70.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "only the second pair has the character with the triangle chest piece"
+    "type": "mc",
+    "options": [
+      "(A)",
+      "(B)"
     ],
-    "correct_text": "Only the second pair has the character with the triangle chest piece",
-    "explanation": "",
+    "correct_index": 1,
+    "accepted_answers": null,
+    "correct_text": "(B)",
+    "explanation": "Only the second pair has the character with the triangle chest piece.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
-    "notes": ""
+    "notes": "Options visible in image only — pick the lettered choice"
   },
   {
     "id": "us-s2-e6-60",
@@ -10968,18 +10994,19 @@
     "difficulty": 40,
     "question_text": "Based on the invitation, whose wedding is likely to have the fewest guests in attendance?",
     "question_image": "questions/us-s2-e6-40.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "taylor and morgans wedding date is february 30th, and no one will be able to make it on that date since it doesnt exist",
-      "taylor and morgan’s wedding date is february 30th, and no one will be able to make it on that date since it doesn’t exist"
+    "type": "mc",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)"
     ],
-    "correct_text": "Taylor and Morgan’s wedding date is February 30th, and no one will be able to make it on that date since it doesn’t exist",
-    "explanation": "",
+    "correct_index": 2,
+    "accepted_answers": null,
+    "correct_text": "(C)",
+    "explanation": "Taylor and Morgan’s wedding date is February 30th, and no one will be able to make it on that date since it doesn’t exist.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
-    "notes": ""
+    "notes": "Options visible in image only — pick the lettered choice"
   },
   {
     "id": "us-s2-e6-35",
@@ -11791,12 +11818,15 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "only two letters that make a world are r and i, making the pendant read “100% that rich”",
-      "the only two letters that make a world are r and i, making the pendant read 100% that rich",
-      "the only two letters that make a world are r and i, making the pendant read “100% that rich”"
+      "r and i",
+      "i and r",
+      "r, i",
+      "i, r",
+      "ri",
+      "ir"
     ],
-    "correct_text": "The only two letters that make a world are R and I, making the pendant read “100% THAT RICH”",
-    "explanation": "",
+    "correct_text": "R and I",
+    "explanation": "The only two letters that make a word are R and I, making the pendant read “100% THAT RICH”.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -12941,7 +12971,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "1 cent"
+      "1",
+      "1 cent",
+      "one",
+      "one cent"
     ],
     "correct_text": "1 cent",
     "explanation": "If she uses the two 55-cent stamps and the 63-cent stamp, that would add up to $1.73, which is the closest she can get to $1.72.",
