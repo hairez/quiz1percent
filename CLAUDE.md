@@ -111,6 +111,20 @@ These are real bugs that bit me; if you change `parse.py` or `build.py`, keep th
    reliable signal. Expect 1–2 questionable questions per ~600. If we ever build
    a manual blocklist, put it at the top of `build.py`.
 
+6. **`Answer X is …` prefix.** A few sources phrase the MC answer as prose:
+   "Answer B is the only tray that has three different vegetables…". The
+   `_ANSWER_WORD_RE` arm of `extract_correct_letter` catches this and routes
+   the record into the placeholder-MC path. Only used as a last resort after
+   the `(A)` / `A.` / `A:` matchers fail.
+
+7. **`MANUAL_OVERRIDES` dict in `build.py`.** For the small number of questions
+   where the source text fights every heuristic (e.g. the answer letter is buried
+   in the explanation, or the image has fewer options than the default A–D),
+   add an entry to `MANUAL_OVERRIDES` keyed by question id. The dict is merged
+   into the canonicalized record as the last step of `canonicalize()`, so a
+   re-scrape won't regress the fix. Only reach for this after confirming the
+   parser can't be fixed generically.
+
 ## App architecture (public/app.js)
 
 - `game` object holds: `items`, `idx` (live cursor), `viewIdx` (what's on screen),

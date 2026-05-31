@@ -11937,11 +11937,10 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "letters are currently p, r, n, d, s, l",
-      "the letters are currently p, r, n, d, s, l"
+      "n"
     ],
-    "correct_text": "The letters are currently P, R, N, D, S, L",
-    "explanation": "In alphabetical order, the letters are D, L, N, P, R, S – so N is in the same position.",
+    "correct_text": "N",
+    "explanation": "The letters are currently P, R, N, D, S, L. In alphabetical order, the letters are D, L, N, P, R, S – so N is in the same position.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
@@ -13044,17 +13043,19 @@
     "difficulty": 80,
     "question_text": "At the cafeteria, Deron always gets milk. He never gets bread. And he always gets three different vegetables. Which of these is Deron’s lunch tray?",
     "question_image": "questions/us-s2-e13-80.jpg",
-    "type": "text",
-    "options": null,
-    "correct_index": null,
-    "accepted_answers": [
-      "answer b is the only tray that has three different vegetables, milk, and no bread"
+    "type": "mc",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)"
     ],
-    "correct_text": "Answer B is the only tray that has three different vegetables, milk, and no bread",
-    "explanation": "",
+    "correct_index": 1,
+    "accepted_answers": null,
+    "correct_text": "(B)",
+    "explanation": "Tray B is the only one with three different vegetables, milk, and no bread.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
-    "notes": ""
+    "notes": "Options visible in image only — pick the lettered choice"
   },
   {
     "id": "us-s2-e13b-80",

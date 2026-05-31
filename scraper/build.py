@@ -31,6 +31,39 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
+# Hand-curated overrides for questions where the source text fights every
+# heuristic we have. Keyed by canonical question id. Each entry is merged into
+# the canonicalized record (last). Add an entry only after confirming the
+# question is unplayable as parsed. See CLAUDE.md "Parser gotchas".
+MANUAL_OVERRIDES: dict[str, dict] = {
+    # Image shows 3 trays (A/B/C). Source answer reads
+    #   "Answer B is the only tray that has three different vegetables..."
+    # which slips past extract_correct_letter (no '(B)' / 'B:' prefix) and
+    # lands the whole sentence as accepted_answers.
+    "us-s2-e13-80": {
+        "type": "mc",
+        "options": ["(A)", "(B)", "(C)"],
+        "correct_index": 1,
+        "accepted_answers": None,
+        "correct_text": "(B)",
+        "explanation": "Tray B is the only one with three different vegetables, milk, and no bread.",
+        "notes": "Options visible in image only — pick the lettered choice",
+    },
+    # Answer is "N" but it's buried in the explanation
+    # ("...so N is in the same position"). parse_answer's first-sentence split
+    # captures the question's setup ("The letters are currently P, R, N, D, S, L.")
+    # as the answer instead.
+    "us-s2-e9-25": {
+        "type": "text",
+        "options": None,
+        "correct_index": None,
+        "accepted_answers": ["n"],
+        "correct_text": "N",
+        "explanation": "The letters are currently P, R, N, D, S, L. In alphabetical order, the letters are D, L, N, P, R, S – so N is in the same position.",
+    },
+}
+
+
 NUMBER_WORDS = {
     "0": ["zero"], "1": ["one"], "2": ["two"], "3": ["three"], "4": ["four"],
     "5": ["five"], "6": ["six"], "7": ["seven"], "8": ["eight"], "9": ["nine"],
@@ -101,6 +134,10 @@ def parse_answer(answer_raw: str) -> tuple[str, str]:
 _LETTER_PREFIX_RE = re.compile(r"^\(?([A-E])[\)\.\]:]\s*(.+)$", re.I)
 # Bare-letter answer ("A", "A.", "(B)") with nothing meaningful after.
 _BARE_LETTER_RE = re.compile(r"^\(?([A-E])[\)\.\]:]?\.?\s*$", re.I)
+# "Answer B is the only tray..." — source prose where the letter is followed
+# by the explanation in the same sentence. Only used when no other letter
+# extractor matches.
+_ANSWER_WORD_RE = re.compile(r"^Answer\s+([A-E])\b", re.I)
 _INLINE_OPTS_RE = re.compile(r"\(?([A-E])[\)\.\]]\s+([^()]+?)(?=\s*\(?[A-E][\)\.\]]\s|$)")
 
 
@@ -119,12 +156,15 @@ def parse_inline_options(text: str) -> list[str] | None:
 
 
 def extract_correct_letter(answer_seg: str) -> str | None:
-    """Return 'A'-'E' if the answer is a labelled letter ('(A)', 'A) X', 'A.', 'B: Red', 'A')."""
+    """Return 'A'-'E' if the answer is a labelled letter ('(A)', 'A) X', 'A.', 'B: Red', 'A', 'Answer B ...')."""
     s = answer_seg.strip()
     m = _BARE_LETTER_RE.match(s)
     if m:
         return m.group(1).upper()
     m = _LETTER_PREFIX_RE.match(s)
+    if m:
+        return m.group(1).upper()
+    m = _ANSWER_WORD_RE.match(s)
     if m:
         return m.group(1).upper()
     return None
@@ -298,6 +338,10 @@ def canonicalize(raw: dict) -> dict | None:
 
     if not record["correct_text"]:
         return None
+
+    override = MANUAL_OVERRIDES.get(record["id"])
+    if override:
+        record.update(override)
 
     return record
 
