@@ -2986,10 +2986,7 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "10",
-      "10 downing street",
-      "ten",
-      "ten downing street"
+      "10 downing street"
     ],
     "correct_text": "10 Downing Street",
     "explanation": "ING appears down 10 times = 10 Downing Street.",

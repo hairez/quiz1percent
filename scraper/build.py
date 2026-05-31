@@ -314,9 +314,12 @@ def expand_accepted(answer_segment: str) -> list[str]:
     # number-word form. So "60 days" → "60", "sixty", "sixty days".
     # Only the integer-first form is handled: a word-first branch would
     # over-match band/title answers like "One Direction" or "Four Seasons"
-    # and let users score by typing "1" or "4". The unit character class
-    # includes both straight and smart apostrophes so "10 o'clock" works.
-    m = re.fullmatch(r"\s*(\d{1,3}(?:,\d{3})*|\d+)\s+([a-z][a-z'’ ]*)", base, flags=re.I)
+    # and let users score by typing "1" or "4". The unit must be lowercase
+    # (no re.I) so Title Case proper nouns like "10 Downing Street" do not
+    # match — bare "10" is wrong when the street name is part of the answer.
+    # The unit character class includes both straight and smart apostrophes
+    # so "10 o'clock" works.
+    m = re.fullmatch(r"\s*(\d{1,3}(?:,\d{3})*|\d+)\s+([a-z][a-z'’ ]*)", base)
     if m:
         num_raw, unit = m.group(1), m.group(2).strip()
         unit_no_quotes = re.sub(r"['’]", "", unit)
