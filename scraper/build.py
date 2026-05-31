@@ -61,6 +61,18 @@ MANUAL_OVERRIDES: dict[str, dict] = {
         "correct_text": "N",
         "explanation": "The letters are currently P, R, N, D, S, L. In alphabetical order, the letters are D, L, N, P, R, S – so N is in the same position.",
     },
+    # Source answer is the full explanation sentence
+    # ("The word "COMB-OVER" is revealed when you move the combo over..."),
+    # which expand_accepted stored verbatim as the only accepted answer,
+    # making any plausible user input ("comb-over", "combover") fail.
+    "us-s2-e6-50": {
+        "type": "text",
+        "options": None,
+        "correct_index": None,
+        "accepted_answers": ["comb-over", "comb over", "combover"],
+        "correct_text": "COMB-OVER",
+        "explanation": "The word “COMB-OVER” is revealed when you move the combo over and interlock the teeth.",
+    },
 }
 
 

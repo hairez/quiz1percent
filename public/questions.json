@@ -10927,12 +10927,12 @@
     "options": null,
     "correct_index": null,
     "accepted_answers": [
-      "the word comb-over is revealed when you move the combo over and interlock the teeth",
-      "the word “comb-over” is revealed when you move the combo over and interlock the teeth",
-      "word “comb-over” is revealed when you move the combo over and interlock the teeth"
+      "comb-over",
+      "comb over",
+      "combover"
     ],
-    "correct_text": "The word “COMB-OVER” is revealed when you move the combo over and interlock the teeth",
-    "explanation": "",
+    "correct_text": "COMB-OVER",
+    "explanation": "The word “COMB-OVER” is revealed when you move the combo over and interlock the teeth.",
     "source_url": "https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale",
     "confidence": "high",
     "notes": ""
