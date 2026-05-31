@@ -1,0 +1,116 @@
+
+==90%==
+{| class="fandom-table"
+! colspan="3" |If you throw three standard dice at the same time, which of these totals are you most likely to see?
+|-
+|2
+|'''12'''
+|29
+|}
+It is the only total possible with three dice.
+
+==80%==
+Which number would logically come next in this sequence?
+
+259<br>360<br>471<br>582<br>'''693'''
+
+The numbers in each column are sequential.
+
+== 70% ==
+What is the difference between these two images?
+
+[[File:Rovers.png|frameless]]
+
+The image on the right shows Ravers instead of Rovers.
+
+== 60% ==
+If you change the colours of the Union Jack so that red becomes white, white becomes blue and blue becomes red, which of these would become the new flag of the UK?
+
+[[File:UK.png|frameless]]
+
+'''A'''
+
+==50%==
+Given the following information, which code will open the safe?
+
+*The first digit is larger than the second digit
+*The second digit is half the third digit
+*The first and third digits add up to a number which is double the total of the second and fourth digits.
+
+{| class="fandom-table"
+| '''A) 4362'''
+|B) 9156
+|C) 2481 
+|}
+The first line rules out C and the second line rules out B.
+
+== 45% ==
+[[File:Wingdings2.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |Which band is spelt out here in the font Wingdings?
+|-
+|snow patrol
+|dire straits
+|'''iron maiden'''
+|}
+Both words end with the same white square, and the only option where each word ends with the same letter is Iron Maiden.
+
+==40%==
+{| class="fandom-table"
+! colspan="3" |In the Mackle language of the planet ‘MACKLE’, every word must begin with M, A, C, K, L or E. Which of these is a valid sentence in Mackle?
+|-
+|A man and a machine can enjoy living a life of luxury.
+|Mr. Mack likes to eat cake and chocolate Easter eggs.
+|'''Lee Mack can’t even laugh at a cat licking elephants.'''
+|}
+The other sentences contain a word that is not in Mackle: ‘of’ in A and ‘to’ in B.
+
+== 35% ==
+What shape completes this sequence?
+
+[[File:Sequence.png|frameless]]
+
+They are all numbers – 25, 30, 35. The next in the sequence is 40.
+
+==30%==
+Charlie, Dylan, Talia and Hope play tennis doubles every Saturday. They swap pairings each week and once they have played with each of the others, they start the cycle again. What is the maximum number of times in a month that Charlie and Dylan are on the same team?
+
+Each person has the same doubles partner once every four weeks. The maximum number of Saturdays in a month is five, so it is impossible to have the same pairings more than twice in a month.
+
+==25%==
+{| class="fandom-table"
+! colspan="4" |In a parallel world where surnames are descriptive, which of these men is the oldest?
+|-
+| '''Jack Robertson'''
+|William Jackson
+|John Williamson
+|Will Johnson
+|}
+Will is John’s son. John is William’s son. William is Jack’s son. Jack is Robert’s son, but Robert is not one of the options, so the answer must be Jack.
+
+==20%==
+How many words in this question make a new word when you put them in front of the letters which are below?
+
+EVER
+
+When you add ever to How, When and Which, they become However, Whenever and Whichever.
+
+==15% ==
+This list of first names is not in alphabetical order. If you can only move a name by swapping it directly with another, what is the minimum number of swaps needed to make the list alphabetical?
+
+Ceri Sam Fiona Luna Rob Michelle Paul Deb
+
+Ceri Deb Fiona Luna Michelle Paul Rob Sam
+
+Swap Sam & Deb, Rob & Michelle, Rob & Paul.
+
+== 10% ==
+Your mum calls you in for dinner on a Monday at 8pm. For the rest of the week she calls you in half an hour earlier each day. On Saturday night the clocks go back an hour. What time does she call you in for dinner on Sunday?
+
+'''5pm''': It makes no difference that the clocks go back an hour. So, 6 days x 30 minutes = 3 hours.
+
+==1%==
+Using only two letters to fill in the blanks, what is the word below?
+
+P'''OSS'''E'''SS'''I'''O'''N
+[[Category:1% Club Season 3]]

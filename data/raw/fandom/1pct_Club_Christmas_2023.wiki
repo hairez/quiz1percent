@@ -1,0 +1,150 @@
+== Example Question ==
+What word can go before all of these?
+
+[[File:Cracker tree light.png|frameless]]
+
+'''Christmas''' crackers, '''Christmas''' tree and '''Christmas''' lights.
+
+== 90% ==
+Which pantomime is being represented here?
+
+[[File:Puss in boots.png|frameless]]
+
+'''Puss in Boots'''
+
+== 80% ==
+Which of these images rhymes with the ninth word of the chorus of ‘Jingle Bells’?
+
+[[File:Jingle bells.png|frameless]]
+
+Bow because it rhymes with ‘Oh’.
+
+==70%==
+Which is the only month of the year that can be made using some or all of the letters in CHRISTMAS?
+
+'''MARCH'''
+
+==60%==
+{| class="fandom-table"
+! colspan="3" |If you write the words ‘Christmas’ and ‘Boxing Day’ using alternating letters, what do you get?
+|-
+|CBOHXRIISNTGMDAAYS
+|CBHOTXISIRMNGADSAY
+|'''CBHORXIISNTGMDAASY'''
+|}
+
+== 50% ==
+What colour baubles on the tree have the highest total if you add up the numbers?
+
+[[File:Christmas Tree.png|frameless]]
+
+Only Silver has 5, 4, 3, 2 and 1. All the others are missing at least one number.
+
+==45%==
+Look at this list of Santa’s reindeer.
+
+Dasher, Dancer, Prancer, Vixen, Comet, Cupi'''d''', Donner, Blitzen
+{| class="fandom-table"
+! colspan="3" |Which statement about their names is FALSE?
+|-
+|They all have five, six or seven letters.
+|'''They all end in a letter that is in the second half of the alphabet.'''
+|The most common first letter is D.
+|}
+Cupid ends in a D.
+
+==40%==
+In 1993, Christmas Day fell on a Saturday. What day of the week was New Year’s Day in 1994?
+
+'''Saturday''': New Year’s Day is always the same day of the week as the Christmas Day it follows.
+
+==35%==
+{| class="fandom-table"
+! colspan="5" |Lee likes to eat his Christmas dinner in a particular order. He eats the red cabbage with cranberries before he tucks into the honey-roasted parsnips but after the carrots. He devours the Brussels sprouts with chestnuts before the pigs in blankets but after the parsnips. What does he eat first?
+|-
+|Red cabbage with cranberries
+|Honey-roasted parsnips
+|'''Carrots'''
+|Brussels sprouts with chestnuts
+|Pigs in blankets
+|}
+Carrots then red cabbage, parsnips, sprouts and finally the pigs in blankets.
+
+==30%==
+What Christmas item completes this list?
+
+ENLIST LISTEN SILENT INLETS '''TINSEL'''
+
+They are all anagrams of each other and ‘tinsel’ is the only Christmas item that can complete the list.
+
+== 25% ==
+Harry puts six elves up as Christmas decorations:
+
+[[File:Elves.png|frameless]]
+
+Harry’s favourite is the one that, as you look at them, is three to the left of the one that is directly to the right of the one that is four to the right of Merry. What is the name of Harry’s favourite elf?
+
+Four to the right of Merry is Cheery. Directly to the right of Cheery is Smiley. Three to the left of Smiley is Happy.
+
+==20%==
+There are 43 words in total in the festive song lyrics below but how many different words are there?
+
+'''We wish you a merry Christmas'''<br>We wish you a merry Christmas<br>We wish you a merry Christmas '''and''' a '''happy New Year'''<br>'''Good tidings''' we '''bring to''' you and '''your kin'''<br>We wish you a merry Christmas and a happy New Year
+
+'''16'''
+
+==15%==
+On an advent calendar that runs from December first to Christmas Eve, how many times would you see the digit 2?
+
+'''8''': 2, 12, 20, 21, 22, 23, 24
+
+==10%==
+What Christmas tradition is represented below?
+
+N I G '''M A S S''' H T
+
+'''Midnight Mass'''
+
+== 5% ==
+What festive phrase can be seen if you move one segment in each of the characters below?
+
+[[File:696969692.png|frameless]]
+
+[[File:HOHOHO2.png|frameless]]
+
+==1%==
+{| class="fandom-table"
+! colspan="5" |If you remove all the letters that appear more than once, what Christmassy word can you make from those that remain?
+|-
+|B
+|C
+|H
+|D
+|'''F'''
+|-
+|A
+|J
+|'''E'''
+|G
+|I
+|-
+|K
+|'''L'''
+|N
+|M
+|N
+|-
+|K
+|J
+|H
+|G
+|D
+|-
+|B
+|M
+|C
+|I
+|A
+|}
+'''Elf'''
+[[Category:1% Club Christmas]]

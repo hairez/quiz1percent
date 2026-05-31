@@ -1,0 +1,152 @@
+==90%==
+Twelve of the thirteen hearts cards from a pack of cards are shown here. Which one missing?
+
+[[File:Cards.png|frameless]]
+
+'''Eight of Hearts'''
+
+==80%==
+You walk 10 miles northeast, then turn south and walk a further 20 miles. You then walk in a straight line back to your starting point. What shape have you just made?
+
+You have walked in three straight lines without retracing your steps and end up where you started which makes a triangle.
+
+==70%==
+{| class="fandom-table"
+! colspan="2" |'''In this puzzle, what has the most animals?'''
+|-
+|'''Instagram'''
+|TikTok
+|}
+Instagram contains STAG and Ram. TikTok contains no animals.
+
+==60%==
+Which Post-it note goes in the gap?
+
+[[File:Post-it.png|frameless]]
+
+==50%==
+What comes next?
+
+[[File:ABC.png|frameless]]
+
+They are halved letters of the alphabet in order.
+
+==45%==
+What image should replace the question mark?
+
+[[File:Wheels.png|frameless]]
+
+The number of wheels increase each time so the first picture needs to have no wheels.
+
+==40%==
+In the following sentence, in how many words does the letter “r” appear exactly twice?
+
+Hungry Ha'''rr'''y '''R'''icha'''r'''dson hu'''rr'''ied home ca'''rr'''ying a cu'''rr'''y in a carrier bag.
+
+==35%==
+Which piece of paper can be formed into this paper aeroplane?
+
+[[File:Plane.png|frameless]]
+
+The only information we have is that, from left to right, the 2nd segment is white and 4th segment is red.
+
+==30%==
+Which word continues the pattern to complete the sentence?
+{| class="fandom-table"
+! colspan="3" |'''Jo the chef likes eating chicken…'''
+|-
+|Wings
+|Nuggets
+|'''Jalfrezi'''
+|}
+Each word in the sentence uses one more letter than the previous word.
+
+==25%==
+Answer this question:
+
+Look and read carefully, as lots and lots of words and letters are written here, but what is the first letter of the last word which begins with the letter at the beginning of this long sentence?
+
+All the question is really asking is what is the first letter of the first word in the sentence.
+
+==20%==
+Grandma Mildred has been given a birthday cake. Which of these cakes is hers?
+
+[[File:Cake.png|frameless]]
+
+The 18 is 81 if you are on the other side of the cake.
+
+==15%==
+There is one word that can be put after each of these images to make three new things. What is that word?
+
+[[File:House.png|frameless]]
+
+Treehouse, lighthouse and beach house.
+
+==10%==
+Lily is Pippa’s niece but she isn’t Nicola’s niece even though Nicola is Pippa’s sister and Pippa has no children. How is that possible?
+
+If Nicola and Pippa are sisters and Lily isn’t Nicola’s niece, she must be her daughter.
+
+==5%==
+{| class="fandom-table"
+! colspan="7" |'''What animal is missing?'''
+|-
+|O
+|T
+|O
+|E
+|C
+|A
+|L
+|-
+|N
+|H
+|U
+|O
+|A
+|'''F'''
+|I
+|-
+|E
+|R
+|R
+|N
+|U
+|'''I'''
+|V
+|-
+|T
+|E
+|F
+|C
+|G
+|'''S'''
+|E
+|-
+|W
+|E
+|I
+|E
+|H
+|'''H'''
+|
+|-
+|O
+|F
+|V
+|I
+|T
+|A
+|
+|}
+Start in the top left corner and read down the columns to reveal the rhyme “One, two, three, four, five, once I caught a '''FISH''' alive”.
+
+==1%==
+Given that:
+
+0 + 100 = 100<br>1 + 99 = 100<br>2 + 98 = 100
+
+What is the sum of all the whole numbers between zero and 100?
+
+There are 50 pairs that total 100 (0 & 100, 1 & 99, 2 & 98 etc). That makes 5000, but there is also the number 50 in the middle, that is not in a pair but also needs to be counted, giving a total of 5050.
+[[Category:1% Club Season 3]]

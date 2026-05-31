@@ -1,0 +1,169 @@
+==90%==
+Which one of these images is upside down?
+
+[[File:Upside down2.png|frameless]]
+
+A has to be upside down or it would mean the sand is travelling up in the hourglass.
+
+==80%==
+What type of food is being represented in this puzzle?
+
+POTOOOOOOOO
+
+'''Potatoes''': Pot Eight Os
+
+==70%==
+{| class="fandom-table"
+! colspan="2" |'''Starting with your left hand, if you numbered your fingers and thumbs from 1 to 10, and then lowered all those with odd numbers, which hand would have the most upright digits?'''
+|-
+|Left hand
+|'''Right hand'''
+|}
+
+==60%==
+{| class="fandom-table"
+! colspan="3" |'''Which of these sporting events would you most associate with a magnificent bird?'''
+|-
+|fa cup
+|'''super bowl'''
+|olympic games
+|}
+A superb owl is a magnificent bird.
+
+==50%==
+Farmer Fred is a bit drunk, but he needs to count his SHEEP. Luckily all his SHEEP have the word SHEEP printed on their coats. How many times in total does the word SHEEP appear on the screen?
+
+[[File:Sheep.png|frameless]]
+
+Counting the word SHEEP in the question and the word SHEEP in the image, it appears 16 times.
+
+==45%==
+{| class="fandom-table"
+! colspan="2" |'''Miranda and Oliver are playing a game of table tennis. They change serve after every 2 points. If Oliver served first, and the score is now 6-5, who will be serving the next point?'''
+|-
+|'''Miranda'''
+|Oliver
+|}
+They’ve played 11 points, so the next point will be the 12th point. Oliver serves on points: 1, 2, 5, 6, 9, 10 and Miranda serves on points: 3, 4, 7, 8, 11, 12.
+
+==40%==
+{| class="fandom-table"
+! colspan="5" |'''Which of the words below has only ONE opposite among the other words?'''
+|-
+|Incorrect
+|Right
+|Correct
+|'''Left'''
+|Wrong
+|}
+Incorrect: Right and Correct<br>Right: Incorrect, Wrong and Left<br>Correct: Incorrect and Wrong<br>Wrong: Right and Correct<br>The only opposite of Left is Right.
+
+==35%==
+If you take the first half of HALF and put it next to the third quarter of QUARTERS, what word do you make?
+
+'''HATE''': '''HA'''-lf and qu-ar-'''TE'''-rs.
+
+==30%==
+What part of the body can be inserted into each of the gaps to complete these commonly used words?
+
+K'''ARM'''A<br>SW'''ARM'''ED<br>SPE'''ARM'''INT
+
+==25%==
+What is the highest number of squares you could colour in so that no two coloured squares touch?
+
+[[File:Squares.png|frameless]]
+
+'''6'''
+
+==20%==
+{| class="fandom-table"
+! colspan="4" |'''Manchester has a reputation for being rainy, but if it is dry at 12:01am on Monday, what are the chances of it being sunny 72 hours later, on Thursday?'''
+|-
+|100%
+|50%
+|25%
+|'''0%'''
+|}
+12:01am is one minute after midnight so whether it is dry or raining, the one thing it won’t be is sunny.
+
+==15%==
+What replaces the question mark in this sequence?
+
+1 2 3 4 5 6 7<br>3 3 5 4 4 3 '''5'''
+
+The row on the bottom shows the number of letters in the names of the numbers above.
+
+==10%==
+What five-letter word can be put after each of these three images to make three new words?
+
+[[File:Light.png|frameless]]
+
+Lime'''light''', moon'''light''' and spot'''light'''.
+
+==5%==
+What is the first letter of the alphabet not to appear in the name of any month of the year?
+
+'''K'''
+
+==1%==
+{| class="fandom-table"
+! colspan="7" |'''Starting on 25, the middle square, SEEN takes you to square 27. From there, NEW takes you to 20. From there, which square does SEWN take you to?'''
+|-
+|1
+|2
+|3
+|4
+|5
+|6
+|7
+|-
+|8
+|9
+|10
+|11
+|12
+|13
+|14
+|-
+|15
+|16
+|17
+|18
+|19
+|'''20'''
+|21
+|-
+|22
+|23
+|24
+|25
+|26
+|27
+|28
+|-
+|29
+|30
+|31
+|32
+|33
+|34
+|35
+|-
+|36
+|37
+|38
+|39
+|40
+|41
+|42
+|-
+|43
+|44
+|45
+|46
+|47
+|48
+|49
+|}
+The letters are the directions on a compass so SEWN stands for South, East, West and North.
+[[Category:1% Club Season 3]]

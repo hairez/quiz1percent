@@ -17,12 +17,22 @@ data/raw/*.html         primary sources (comingsoon.net Q&A recaps), cached
    ▼  scraper/parse.py
 data/questions-raw.json one record per Q (raw fields, including question_extra and answer_raw)
    │
-   ▼  scraper/build.py
+   ▼  scraper/build.py ◄── data/questions-fandom.json   (secondary source for
+   │                                                     UK S1-S3 + specials + S4 gaps)
+   │                  ◄── MANUAL_OVERRIDES dict in build.py
 public/questions.json   final, deduped, validated; loaded by the app
 public/questions/*.jpg  downloaded question images (named by question id)
    │
    ▼  scraper/smoke.js  (sanity check: every Q can be answered correctly)
    ▼  public/index.html + public/app.js  (no build step, Tailwind via CDN)
+
+data/raw/fandom/*.wiki  cached MediaWiki API responses
+   │
+   ▼  scraper/parse_fandom.py
+data/questions-fandom.json
+   │
+   ▼  scraper/audit_fandom.py
+data/audit-fandom.md    side-by-side diff vs public/questions.json
 ```
 
 The app is **vanilla JS, no build step, no framework**. State lives in one
@@ -40,14 +50,24 @@ of `<main id="app">`. Don't add a build pipeline without a strong reason.
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install requests beautifulsoup4 lxml pillow
-.venv/bin/python scraper/fetch.py    # cached — only re-fetches missing pages
-.venv/bin/python scraper/parse.py    # raw HTML → questions-raw.json
-.venv/bin/python scraper/build.py    # canonical questions.json + image download
-node scraper/smoke.js                # sanity check
+.venv/bin/python scraper/fetch.py            # cached — only re-fetches missing pages
+.venv/bin/python scraper/parse.py            # raw HTML → questions-raw.json
+.venv/bin/python scraper/fetch_fandom.py     # cached wikitext for UK S1-S4 + specials
+.venv/bin/python scraper/parse_fandom.py     # wikitext → questions-fandom.json
+.venv/bin/python scraper/build.py            # canonical questions.json + image download
+node scraper/smoke.js                        # sanity check
+.venv/bin/python scraper/audit_fandom.py     # optional — diff report vs wiki
 ```
 
-`fetch.py` is idempotent (it skips files >5 KB that already exist). Delete a file
-in `data/raw/` to force a refetch.
+`fetch.py` is idempotent (skips files >5 KB that already exist). Delete a file
+in `data/raw/` to force a refetch. `fetch_fandom.py` is the same for the wiki
+cache under `data/raw/fandom/`.
+
+`build.py` reads three inputs: `questions-raw.json` (comingsoon), the
+`MANUAL_OVERRIDES` dict at the top of `build.py`, and optionally
+`questions-fandom.json` (wiki, importing any IDs that are *not* already in the
+comingsoon canonical set). Wiki images are resolved on demand via the MediaWiki
+`imageinfo` API and downloaded into `public/questions/`.
 
 ## Question schema (public/questions.json)
 
@@ -108,8 +128,19 @@ These are real bugs that bit me; if you change `parse.py` or `build.py`, keep th
 
 5. **Source-article typos.** Comingsoon occasionally pastes the wrong answer
    under the wrong question heading. We don't try to detect this — there's no
-   reliable signal. Expect 1–2 questionable questions per ~600. If we ever build
-   a manual blocklist, put it at the top of `build.py`.
+   reliable signal. Expect 1–2 questionable questions per ~600. The
+   `MANUAL_OVERRIDES` dict at the top of `build.py` is the patch surface: each
+   entry is shallow-merged into the canonical record after `canonicalize()`.
+   Cross-reference suspected bugs against the Fandom wiki (`audit_fandom.py`
+   writes `data/audit-fandom.md`).
+
+6. **Wiki imports are second-class.** Records pulled from the Fandom wiki get
+   `confidence: "medium"` (vs `"high"` for comingsoon-sourced). The wiki has its
+   own quirks: parser sometimes picks up wrong bold tokens as answers,
+   "answer reveal" rows in tables look like extra options, picture-answer
+   questions have no extractable answer. `wiki_record_to_canonical()` in
+   `build.py` filters out the worst of these (confidence=low, empty text,
+   single-letter answers without options).
 
 ## App architecture (public/app.js)
 

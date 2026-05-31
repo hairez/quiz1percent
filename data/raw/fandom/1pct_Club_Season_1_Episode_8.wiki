@@ -1,0 +1,114 @@
+==Example Question==
+Larry’s father has four sons. Their names are listed below. What is the name of his fourth son?
+
+Rick, Nick, Mick and '''Larry''' 
+
+The question says Larry’s father. So the fourth son is, of course, Larry.
+
+== 90% ==
+Which of these does not become a letter of the alphabet if turned either clockwise or anti-clockwise?
+
+[[File:FRG.png|frameless]]
+
+==80%==
+What word replaces the question marks?
+
+W'''EIGHT'''Y<br>CA'''NIN'''E<br>PO'''TEN'''TIAL
+
+==70%==
+What well-known phrase do you get from cracking this code?
+
+BOT'''MESSAGE'''TLE
+
+Message in a bottle
+
+==60%==
+How many '''words''' in this '''question contain''' five or more '''letters'''?
+
+If you answered ‘5’ it may be because people count the word ‘five’ as a five letter word because the brain is registering the number 5.
+
+==50%==
+Which option would complete this ‘animal’ list?
+{| class="fandom-table"
+! colspan="3" |'''A'''ntelope '''N'''ewt '''I'''guana '''M'''ole '''A'''lligator
+|-
+|'''Lion'''
+|Turkey
+|Snake
+|}
+The first letter in the name of each animal spells out the word ‘animal’.
+
+== 45% ==
+{| class="fandom-table"
+! colspan="4" |Which is the odd one out?
+|-
+|Dapple
+|Slime
+|Spear
+|'''Rabbit'''
+|}
+Rabbit is the only word that when you take away the first letter it does not spell out the name of a fruit.
+
+== 40% ==
+Which is the first month of the calendar year whose name is also a verb?
+
+'''March'''
+
+== 35% ==
+Which is the odd one out?
+
+[[File:Lion car.png|frameless]]
+
+All the images rhyme: dog on a log, mouse on a house, goat on a boat. Lion on a car doesn’t rhyme.
+
+== 30% ==
+Have a look at these two words:
+
+polish reading
+
+'''P'''olish '''R'''eading
+
+Without adding or taking away any letters, what simple written change will make these words sound different and have a different meaning?
+
+If you change the first letter of each word to a capital letter it changes their meaning and pronunciation, so reading becomes Reading and polish becomes Polish
+
+== 25% ==
+Have a look at this clock. What time would it be if each hand was directly opposite where it is now?
+
+[[File:Clock 2.png|frameless]]
+
+'''12:50''': The hour hand would point towards the 1, and the minute hand would point towards 10, meaning it becomes 10 to 1.
+
+== 20% ==
+Which is the only calendar that could be correct?
+
+[[File:Calendar.png|frameless]]
+
+February has two 11ths, August has eight days in the week and not seven.
+
+== 15% ==
+Can you solve this riddle?
+
+[[File:Riddle.png|frameless]]
+
+'''5:37''': The times are their names turned upside down and flipped back to front.
+
+== 10% ==
+Which item is in the wrong section of the diagram?
+
+[[File:Venn.png|frameless]]
+
+Fire engines are both man-made and mainly red.
+
+== 5% ==
+Which four-letter word is implied here?
+
+[[File:News.png|frameless]]
+
+These are arrows from a compass. If you take the direction in which they are pointing (North, East, West, South) it spells out ‘news’
+
+== 1% ==
+In sport, if being FT gets you GD and being SD gets you SR, what does being TD get you?
+
+If FT is '''f'''irs'''t''' and GD is '''g'''ol'''d''' and SD is '''s'''econ'''d''' and SR is '''s'''ilve'''r''', then TD is '''t'''hir'''d''' which must mean BE stands for '''b'''ronz'''e'''
+[[Category:1% Club Season 1]]

@@ -1,0 +1,106 @@
+==90%==
+Four people are in a maze trying to reach the centre. Which of them is going the wrong way?
+
+[[File:Maze.png|frameless]]
+
+'''B'''
+
+==80%==
+Lee always paints a circle. Lee never paints squares. Lee always paints four triangles. Which of these is one of Lee’s paintings?
+
+[[File:Shapes 3.png|frameless]]
+
+B has squares and C has only three triangles so it must be '''A'''.
+
+==70%==
+What board game is represented here?
+
+[[File:Scrabble.png|frameless]]
+
+'''SCRABBLE''': S + CRAB + BALL
+
+==60%==
+How many squares make up this pattern?
+
+[[File:Squares 2.png|frameless]]
+
+'''4'''
+
+==50%==
+{| class="fandom-table"
+! colspan="4" |Which of the words that <u>follow this</u> sentence don’t <u>follow the</u> word ‘<u>follow</u>’ <u>in</u> this question?
+|-
+|this
+|in
+|the
+|'''of'''
+|}
+
+==45%==
+{| class="fandom-table"
+! colspan="4" |<u>A</u>listair’s dream celebrity dinner party would be <u>C</u>ameron <u>D</u>iaz, <u>E</u>lla <u>F</u>itzgerald and <u>G</u>lenn <u>H</u>oddle. What is Alistair’s surname?
+|-
+|Green
+|White
+|Coral
+|'''Brown'''
+|}
+The initials of all the guests are consecutive letters, so his surname must begin with B.
+
+==40%==
+Which sport replaces the question mark?
+
+[[File:Golf.png|frameless]]
+
+GOAL – AL + LF = '''GOLF'''
+
+==35%==
+These are all the UK coins in order of size from smallest to largest. How many stay in the same position when they are laid out in value order from lowest to highest instead?
+
+[[File:Coins.png|frameless]]
+
+'''One'''
+
+==30%==
+What word replaces the question mark?
+
+[[File:Colour.png|frameless]]
+
+'''GREEN''': The words in each box dictate the colour of the next box.
+
+==25%==
+The answers to each of these clues all use the same three letters but in different orders. What are those three letters?
+
+POSSESS '''OWN'''<br>IMMEDIATELY '''NOW'''<br>VICTORIOUS '''WON'''
+
+== 20% ==
+What weather-related phrase is represented here?
+
+Emperor Tiger. King Tabby. Queen Spaniel. Empress Labrador.
+
+'''Raining cats and dogs''': Emperor, king, queen and empress all ‘reign’. Tiger and tabby are cats and spaniel and labrador are dogs.
+
+== 15% ==
+What two letters can be placed in front of the following five words to create five new common words?
+
+'''DR'''APED   '''DR'''INK  '''DR'''ONE   '''DR'''OWNED   '''DR'''OUGHT
+
+== 10% ==
+Starting at 1, the first 10 odd numbers add up to 100. What do the first 10 even numbers add up to?
+
+2 + 4 + 6 + 8 + 10 + 12 + 14 + 16 + 18 + 20 = '''110''' OR you could just add 10 to 100 as each even number is 1 higher than the previous odd number.
+
+== 5% ==
+Without reordering any letters, how many animals appear in the sequence below?
+
+PHEASANTORTOISEALION
+
+'''6''': PHEASANT, SEALION, ANT, SEAL, TORTOISE and LION.
+
+== 1% ==
+The words below share a specific pattern. Why could VO'''TIN'''G also be part of the group?
+
+BAND'''LEAD'''ER   '''NICKEL'''ODEON   '''SILVER'''BACK
+
+They all contain the names of metals.
+[[Category:1% Club Season 4]]

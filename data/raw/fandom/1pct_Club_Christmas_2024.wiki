@@ -1,0 +1,116 @@
+==90%==
+[[File:Elves reindeer.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |Are there more elves or reindeer behind this fence?
+|-
+|'''Elves'''
+|Reindeer
+|}
+There are 5 elves but only 4 reindeer.
+
+==80%==
+What is the only item which does NOT appear in both images?
+
+[[File:Santa's legs.png|frameless]]
+
+'''Santa's legs''': They are missing in the image on the right.
+
+==70%==
+{| class="fandom-table"
+! colspan="3" |Which of these badly spelt titles is a Christmas carol?
+|-
+|Hum Teed Um Tea
+|Hayd iduld iddul
+|'''Oakum mall yeef athe full'''
+|}
+When you read the options out loud they sound like Humpty Dumpty, Hey Diddle Diddle and O Come All Ye Faithful. O Come All Ye Faithful is the only option which is a Christmas carol.
+
+==60%==
+{| class="fandom-table"
+! colspan="3" |If you write the words PARSNIPS and STUFFING using alternating letters, what do you get?
+|-
+|PSARTSUNFNFIPISG
+|P'''S'''A'''T'''R'''U'''S'''F'''N'''F'''I'''I'''P'''N'''S'''G'''
+|PSATSURNFNFIPISG
+|}
+
+==50%==
+Which of these puzzle pieces doesn’t belong here?
+
+[[File:Snowman puzzle.png|frameless]]
+
+'''D'''
+
+==45%==
+{| class="fandom-table"
+! colspan="3" |The red Christmas present is lighter than the green Christmas present. The gold Christmas present weighs half as much as the green and red ones combined. Which colour present is the heaviest.
+|-
+|Red
+|'''Green'''
+|Gold
+|}
+If the gold present weighs half as much as the red and green presents combined and the red present is lighter than the green one, the green present must be the heaviest.
+
+==40%==
+Winnie and her friend Ezra sing duets together. Winnie sings the words with one syllable and Ezra sings the words with two. What will be the last word that Ezra sings in the section below?
+
+Frosty the snowman was a jolly happy soul<br>With a corn cob pipe and a '''button''' nose<Br>And two eyes made out of snow
+
+==35%==
+If A = 1, B = 2, C = 3 and so on… what is the sum total of the word ELF?
+
+The letters of ELF are E = 5, L = 12, F = 6 which means the sum is '''5 + 12 + 6 = 23'''.
+
+==30%==
+Isaac goes to visit his Auntie Rose at Christmastime every year; sometimes on Christmas Eve and sometimes on Boxing Day. If the below are his ages when he visited her, what date is Isaac’s birthday?
+
+In 2020 he was 26<br>In 2021 he was 28<Br>In 2022 he was 28<Br>In 2023 he was 30
+
+If Isaac visited on Boxing Day in 2021 and Christmas Eve in 2022 and was 28 for both visits, his birthday must be '''25th December'''.
+
+== 25% ==
+What is the EARLIEST date that a whole horizontal row of doors will have been opened on this advent calendar?
+
+[[File:Advent.png|frameless]]
+
+The row containing 20 will be the first to have every door open as all the other rows contain numbers higher than 20.
+
+== 20% ==
+How many different letters appear in the following line of Jingle Bells?
+
+'''Jingle b'''ell'''s''', jingle bells, jingle '''a'''ll '''th'''e '''w'''a'''y'''
+
+'''13'''
+
+== 15% ==
+{| class="fandom-table"
+! colspan="4" |In this Christmas-themed puzzle, which of these words does not logically belong with the others?
+|-
+|S'''ELF'''ISH
+|'''SANTA'''NDER
+|S'''TREE'''TS
+|SUM
+|}
+A Christmas-related word can be seen in all the other words.
+
+== 10% ==
+How many pairs of identical snowmen are there in this image?
+
+[[File:Snowmen.png|frameless]]
+
+'''7'''
+
+== 5% ==
+If there are 25 days on an advent calendar, how many digits are on it in total?
+
+From 1 to 9 is 9 digits, plus 16 double digits from 10 to 25 is 32, giving a total of '''41'''.
+
+== 1% ==
+Using all the six letters missing from this alphabet just once each, what Christmassy object can you spell?
+
+A C D F G B H J M K O P Q U V R Y W X Z
+
+EILNST 
+
+'''TINSEL'''
+[[Category:1% Club Christmas]]

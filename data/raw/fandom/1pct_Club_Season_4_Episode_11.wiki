@@ -1,0 +1,123 @@
+== 90% ==
+[[File:Mice bats.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |What are there more of in this picture: mice or bats?
+|-
+|mice
+|'''bats'''
+|}
+
+== 80% ==
+{| class="fandom-table"
+! colspan="3" |Rebecca and Thomas are going to the zoo. They want to see lions, tigers and bears but they are in three separate areas. Bears are not found in the Red Zone. The Green and Yellow Zones have no lions. Tigers occupy the Green Zone. Where do Rebecca and Thomas go to see the lions?
+|-
+|'''Red Zone'''
+|Yellow Zone
+|Green Zone
+|-
+|'''Lions'''
+|Tigers
+|Bears
+|}
+The question says the Green and Yellow Zones have no lions so they can only be in the Red Zone.
+
+== 70% ==
+Which of these grids contains an even number of singular squares within it?
+
+[[File:Even squares.png|frameless]]
+
+A = 15, C = 49 but B = 32
+
+== 60% ==
+{| class="fandom-table"
+! colspan="3" |Which capital letter below is the only one described by the word in which it features?
+|-
+|penultimatE
+|'''cenTral'''
+|iNitial
+|}
+E is not the second to last letter in penultimate. N is not the first letter in initial. T IS the middle letter in central.
+
+== 50% ==
+What is the smallest number of eggs that need to be moved so that no two eggs are sitting directly next to each other vertically or horizontally?
+
+[[File:Eggs.png|frameless]]
+
+'''2'''
+
+== 45% ==
+{| class="fandom-table"
+! colspan="4" |In this puzzle you need to stay IN the game. Which of these words is the odd one out?
+|-
+|'''IN'''JURY
+|'''IN'''CREASE
+|'''IN'''DEED
+|'''CRY'''
+|}
+If you put IN before the other words, it makes new words. INCRY is not a word although OUTCRY is.
+
+== 40% ==
+Answer this question:
+
+How many Ps are there in total in the following tongue twister?
+
+'''P'''AUL AND '''P'''EARL '''P'''O'''PP'''ER '''P'''ACKED '''P'''OTS OF '''P'''EAS. IN EACH '''P'''OT THERE WERE 100 '''P'''EAS. '''P'''AUL '''P'''ACKED 16 '''P'''OTS AND '''P'''EARL '''P'''ACKED 19 '''P'''OTS. WHEN '''P'''AUL AND '''P'''EARL '''P'''ACKED ALL THEIR '''P'''OTS, THERE WERE SO MANY '''P'''EAS!
+
+'''21''': The question is asking you to count the number of times the letter P appears, not the food item.
+
+== 35% ==
+Which of these is the missing piece for this image?
+
+[[File:UK puzzle.png|frameless]]
+
+'''C''': The piece is upside down but it fits. The other two pieces are already in the puzzle.
+
+== 30% ==
+Using only the faces of the dice you can see and each of them just once, how many different ways can you add them together to make a total of ten?
+
+[[File:Die.png|frameless]]
+
+'''3''': The only combinations are 5+4+1, 5+3+2 and 4+3+2+1.
+
+== 25% ==
+{| class="fandom-table"
+! colspan="3" |Which of these statements is true?
+|-
+|'''In''' this statement, '''the''' word “'''the'''” occurs twice and so does '''the''' word “'''in'''”.
+|In this statement, the '''word''' “'''and'''” occurs twice '''and''' so does the '''word''' “'''word'''”.
+|'''In''' this statement, the word “'''in'''” occurs twice and '''so''' does the word “'''so'''”.
+|}
+
+== 20% ==
+Here is a special secret code: the number on each playing card represents the equivalent letter of that card’s suit. For example, the TWO of DIAMONDS means the second letter of the word ‘DIAMONDS’ so that would be an ‘I’. Now that you know the code, what word is represented by the sequence below?
+
+[[File:Riddle cards.png|frameless]]
+
+'''RIDDLE'''
+
+== 15% ==
+What animal completes this sequence?
+
+[[File:Cow sequence.png|frameless]]
+
+'''COW''': The words contain the sounds the animals make: cat and purr-pose, sheep and baa-gain, snake and hiss-tory and cow and moo-vement.
+
+== 10% ==
+The solution to this puzzle is nearly impossible to find. What is it?
+
+H'''A'''A'''N'''Y'''E'''S'''E'''T'''D'''A'''L'''C'''E'''K
+
+'''A NEEDLE IN A HAYSTACK'''
+
+== 5% ==
+What 2 '''words''' in this question each make a common new word if you move the last letter from the '''end''' to the beginning?
+
+words become sword and end becomes den.
+
+== 1% ==
+I keep forgetting the four-digit PIN number. I know each digit is higher than the previous digit but I need this diagram to remember it. What is my four-digit PIN number?
+
+[[File:1489.png|frameless]]
+
+'''1489'''
+[[Category:1% Club Season 4]]

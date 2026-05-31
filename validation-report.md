@@ -1,32 +1,32 @@
 # Validation report
 
 - Loaded raw questions: **660**
-- Canonicalized successfully: **648**
-- After deduplication across editions: **646**
-- Final after image-required check: **639**
+- Canonicalized successfully: **1011**
+- After deduplication across editions: **985**
+- Final after image-required check: **980**
 
-- Final by show: {'uk': 244, 'us': 395}
-- Final by type: {'mc': 270, 'text': 369}
-- Final with images: **362/639**
+- Final by show: {'uk': 584, 'us': 396}
+- Final by type: {'text': 563, 'mc': 417}
+- Final with images: **453/980**
 
 ## Difficulty distribution
 | % | count |
 |---|---|
-| 90% | 43 |
-| 80% | 41 |
-| 70% | 43 |
-| 60% | 43 |
-| 50% | 43 |
-| 45% | 42 |
-| 40% | 44 |
-| 35% | 44 |
-| 30% | 43 |
-| 25% | 43 |
-| 20% | 44 |
-| 15% | 42 |
-| 10% | 43 |
-| 5% | 42 |
-| 1% | 39 |
+| 90% | 65 |
+| 80% | 65 |
+| 70% | 67 |
+| 60% | 67 |
+| 50% | 62 |
+| 45% | 70 |
+| 40% | 68 |
+| 35% | 66 |
+| 30% | 67 |
+| 25% | 66 |
+| 20% | 68 |
+| 15% | 62 |
+| 10% | 65 |
+| 5% | 60 |
+| 1% | 62 |
 
 ## Dropped during canonicalization (12)
 - `uk-s4-e6-5` — could not canonicalize
@@ -42,15 +42,32 @@
 - `us-s2-e7-15` — could not canonicalize
 - `us-s2-e9-45` — could not canonicalize
 
-## Removed as duplicates (2)
+## Removed as duplicates (26)
+- `uk-s1-e3-90` ↔ `uk-s1-e1-90` (90%)
+- `uk-s4-e16-90` ↔ `uk-special-soccer-aid-2025-90` (90%)
+- `uk-s4-e6-80` ↔ `uk-s1-e1-80` (80%)
+- `uk-s4-e16-80` ↔ `uk-special-soccer-aid-2025-80` (80%)
+- `uk-s4-e16-50` ↔ `uk-special-soccer-aid-2025-50` (50%)
+- `uk-s4-e16-45` ↔ `uk-special-soccer-aid-2025-45` (45%)
 - `us-s1-e13-45` ↔ `us-s1-e9-45` (45%)
-- `uk-s4-e10-1` ↔ `uk-s4-e3-1` (1%)
+- `uk-s4-e16-40` ↔ `uk-special-soccer-aid-2025-40` (40%)
+- `uk-s4-e16-35` ↔ `uk-special-soccer-aid-2025-35` (35%)
+- `uk-s2-e6-35` ↔ `uk-s2-e3-35` (35%)
+- `uk-s4-e16-30` ↔ `uk-special-soccer-aid-2025-30` (30%)
+- `uk-s4-e16-25` ↔ `uk-special-soccer-aid-2025-25` (25%)
+- `uk-s4-e16-20` ↔ `uk-special-soccer-aid-2025-20` (20%)
+- `uk-s4-e16-15` ↔ `uk-special-soccer-aid-2025-15` (15%)
+- `uk-s3-e6-15` ↔ `uk-s3-e11-15` (15%)
+- `uk-s4-e16-10` ↔ `uk-special-soccer-aid-2025-10` (10%)
+- `uk-s1-e6-10` ↔ `uk-s1-e2-10` (10%)
+- `uk-s1-e7-10` ↔ `uk-s1-e2-10` (10%)
+- `uk-s4-e16-5` ↔ `uk-special-soccer-aid-2025-5` (5%)
+- `uk-s3-e15-5` ↔ `uk-s1-e1-5` (5%)
+- ...and 6 more
 
-## Visual questions dropped (no image available) (7)
-- `uk-s4-e9-80` — visual question with no image
+## Visual questions dropped (no image available) (5)
+- `uk-s3-e10-70` — visual question with no image
 - `uk-s4-e15-70` — visual question with no image
-- `uk-s4-e11-60` — visual question with no image
-- `us-s2-e8-25` — visual question with no image
 - `uk-s4-e15-10` — visual question with no image
 - `us-s2-e9-1` — visual question with no image
 - `us-s2-e13b-1` — visual question with no image

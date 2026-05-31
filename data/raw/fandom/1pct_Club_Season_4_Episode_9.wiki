@@ -1,0 +1,129 @@
+== 90% ==
+What movie is represented below?
+
+[[File:Batman.png|frameless]]
+
+Batman
+
+== 80% ==
+{| class="fandom-table"
+! colspan="3" |Which statement below is correct?
+|-
+|Two words in this sentence have two letters.
+|Three words in this sentence have three letters.
+|'''Four''' words in '''this''' sentence '''have four''' letters.
+|}
+
+== 70% ==
+Which of these options replaces the question mark in this set of diagrams?
+
+[[File:Cupid.png|frameless]]
+
+There are three different shapes in each row, overlaid by three different line symbols. The missing shape is a heart and the missing line symbol is an arrow.
+
+== 60% ==
+Nick has mixed up his pie charts by mistake. He remembers that PURPLE is larger than GREEN, but not GREY. GREEN is the smallest of all. GREY is smaller than RED. Which pie chart does he need?
+
+[[File:Pie chart.png|frameless]]'''C'''
+
+== 50% ==
+[[File:Medals.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |Look at this medal table. Who came third first, second second and first third?
+|-
+|SALLY
+|RAJ
+|'''MIKE'''
+|}
+Mike was chronologically the first person to come third, the second person to come second and the third person to come first.
+
+== 45% ==
+What single letter of the alphabet can fit into the three empty spaces to complete these four words?
+{| class="fandom-table"
+|C
+|O
+|S
+|'''Y'''
+|-
+|R
+!
+!
+!
+|-
+|'''Y'''
+|E
+|A
+|R
+|-
+|P
+!
+!
+!
+|-
+|T
+|I
+|N
+|'''Y'''
+|}
+
+== 40% ==
+Which of the options replaces the question mark to complete the sequence?
+
+[[File:SUITS.png|frameless]]
+
+The images represent the four card suits – SPADES, DIAMONDS, HEARTS and then CLUBS.
+
+== 35% ==
+Which symbol replaces the question mark to complete this sequence?
+
+[[File:Origami.png|frameless]]
+
+They are the letters V, W, X, Y & Z with lines added at their points to create symbols.
+
+== 30% ==
+Which one word could mean the same as all these three words?
+
+FINAL ENDURE PREVIOUS
+
+'''LAST'''
+
+== 25% ==
+How many times is the word CLUB written in the box below?
+
+[[File:6 CLUBS.png|frameless]]
+
+'''6'''
+
+== 20% ==
+What word replaces the question mark in this VENN diagram?
+
+[[File:Seat.png|frameless]]
+
+The left circle contains synonyms for chair. The right circle contains words that are anagrams of each other. The only word that fits both is SEAT.
+
+== 15% ==
+What word can go after each of these things to make three new things?
+
+[[File:FLY.png|frameless]]
+
+butterFLY, dragonFLY and fruit FLY
+
+== 10% ==
+A family of five are doing the Hokey Cokey. Grandma always gets it wrong and puts an arm in when everyone else puts a leg in and a leg in when everyone else puts an arm in. when the song says “you put your left leg in”, how many legs in total are not ‘in’?
+
+Four people are doing it correctly so have one left in and one leg out but grandma has her arm in and both legs out. 4 + 2 = 6
+
+== 5% ==
+What well-known phrase can you see here?
+
+[[File:What must come.png|frameless]]
+
+'''WHAT GOES UP MUST COME DOWN'''
+
+== 1% ==
+What two letters replace the question marks?
+
+TE times T equals MESSAGE<br>TO times IN equals POISON<br>E times '''IT''' equals LEAVE
+
+If you replace ‘times’ with ‘X’, you form words with the same meaning as the words on the right.
+[[Category:1% Club Season 4]]

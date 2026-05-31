@@ -1,0 +1,119 @@
+==90%==
+Take a look at the jigsaw below. Which of these is the missing piece?
+
+[[File:Jigsaw2.png|frameless]]
+
+'''C'''
+
+==80%==
+What two-word phrase does this code represent?
+[[File:Time flies.png|frameless]]
+
+'''Time flies'''
+
+==70%==
+{| class="fandom-table"
+! colspan="4" |“The quick br'''o'''wn f'''o'''x jumps '''o'''ver the lazy d'''o'''g” is a sentence that uses every letter in the alphabet, but which letter appears the most?
+|-
+|A
+|E
+|I
+|'''O'''
+|}
+Many people think it is E, as it’s the most commonly-used letter in the alphabet. It is in fact O which appears 4 times.
+
+==60%==
+[[File:Padlock.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |Anoushka can’t remember the code for her padlock. All she can remember is that the code is based in some way on her date of birth – 14th March 1992. One of these codes is correct for the padlock in the picture: which one?
+|-
+|1403
+|14392
+|'''143'''
+|}
+There are only three dials on the padlock.
+
+==50%==
+{| class="fandom-table"
+! colspan="4" |Which of these is worth the most?
+|-
+|1985 £1 coins
+|1995 £1 coins
+|2005 £1 coins
+|'''2015 £1 coins'''
+|}
+They aren’t years, they are numbers and 2015 is a higher number than any of the others.
+
+==45%==
+What is the message hidden below?
+
+[[File:Look more closely.png|frameless]]
+
+'''Look more closely'''
+
+==40%==
+[[File:Sums.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |If you work out the sums that are written in the same colour, which colour has the highest value?
+|-
+|Green
+|'''Red'''
+|Blue
+|Yellow
+|}
+Red: 18 x 2 = 36 Green: 42 – 12 = 30 Blue: 9 + 5 + 5 = 19 Yellow: 65 ÷ 5 = 13
+
+==35%==
+Which one of the words below can be inserted into the sentence to make it true?
+{| class="fandom-table"
+! colspan="4" |Th'''i'''s '''i'''s a sentence that conta'''i'''ns the letter ‘'''i'''’ <u>s'''i'''x</u> t'''i'''mes.
+|-
+|five
+|'''six'''
+|seven
+|eight
+|}
+
+==30%==
+Amrit and his grandad share the same birthday. Their birthday balloons arrive muddled up. Amrit’s grandad is three times older than him. How old is Amrit?
+
+[[File:Balloons.png|frameless]]
+
+'''26''': His grandad is 78.
+
+==25%==
+Friends '''C'''a'''t'''hy '''C'''o'''c'''k'''c'''rof'''t''' and '''T'''abi'''t'''ha '''T'''ru'''c'''kle meet at a café. For every letter ‘c’ that is in their names, they order a coffee and for every letter ‘t’ they order a tea. How many drinks do they order in total?
+
+'''10''': 5 Cs and 5 Ts.
+
+==20%==
+What six letters come next to complete the puzzle?
+
+LQVVHA, MRWWIB, NSXXJC, OTYYKD, '''PUZZLE'''
+
+Each set of letters in the sequence is one letter after the previous set: O becomes P, T becomes U and so on to spell PUZZLE.
+
+==15%==
+If you count from 1 to 30 inclusive, how many numbers have exactly three syllables?
+
+'''10''': 11, 17, 21, 22, 23, 24, 25, 26, 28, 29
+
+==10%==
+In total, how many vowels are there in the names of countries below?
+
+GREASE HUNGRY SP'''AI'''N
+
+'''2''': Spain is the only country in this list.
+
+==5%==
+There is a five-letter word where if you remove the first letter a bit remains, if you remove the second letter that bit is still there, and if you take away the third letter it continues to be in place. What is the word?
+
+'''Habit''' becomes ‘a bit’, then ‘bit’, then ‘it’
+
+==1%==
+In this sequence what number would logically come next
+
+2 4 8 4 6 5 9 4 '''4'''
+
+The number sequence relates to the number of letters in the words in the question. Next has four letters.
+[[Category:1% Club Season 3]]

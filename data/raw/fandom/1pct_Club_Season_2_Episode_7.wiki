@@ -1,0 +1,116 @@
+== Example Question ==
+What is the answer to this question?
+
+[[File:Find the mistake.png|frameless]]
+
+== 90% ==
+How many hands are in this picture?
+
+[[File:Hands.png|frameless]]
+
+'''6''': Two holding the phone and another four in the photograph.
+
+== 80% ==
+When spelt out in words, which one of these comes first alphabetically?
+
+[[File:1% Club 2.png|frameless]]
+
+The C for ‘Club’ comes before the O for ‘One’ and the P for ‘Percent’.
+
+==70%==
+{| class="fandom-table"
+! colspan="2" |What WORD has more letters in it?
+|-
+|'''envelope'''
+|postbox
+|}
+It’s just a counting question. Envelope has eight letters and postbox has seven.
+
+==60%==
+{| class="fandom-table"
+! colspan="3" |Answer the following question: Pwhich pof thep follopwing plives pin thep seap?
+|-
+|BOLT
+|'''CLAMP'''
+|SCREW
+|}
+Every word has an additional ‘P’ so the question should read ‘Which of the following lives in the sea?’ and the answer is CLAM.
+
+== 50% ==
+'''Which''' is the longest word in this question that contains none of the letters of the word ‘One’?
+
+== 45% ==
+If “left” is “right” and “wrong” is also “right”, what is “easy” and also “soft”?
+
+'''Hard''': They are all opposites.
+
+== 40% ==
+Which word in the question below sounds like the odd one out?
+
+Why are you '''out'''?
+
+All the others sound like letters: Why is Y, are is R, you is U, but out is just out.
+
+== 35% ==
+[[File:OandX.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |Crosses have won, but who went first in this game of Noughts and Crosses?
+|-
+|Noughts
+|Crosses
+|}
+Although both ‘Noughts’ and ‘Crosses’ have played four moves each, ‘Crosses’ was the last to play, because it won the game by getting three in a row. That means that ‘Noughts’ must have gone first.
+
+== 30% ==
+A brother and sister take their dog for a walk. The sister jogs at an average of 8mph while the boy walks at an average of 4mph. The dog runs at a constant 10mph back and forth between them and he does not stop at any point. After an hour how far will the dog have run?
+
+'''10 miles''': The dog runs at 10mph. The miles and speed of the brother and sister are irrelevant.
+
+== 25% ==
+{| class="fandom-table"
+! colspan="4" |Which one of these UK towns is the odd one out?
+|-
+|Sidmouth
+|Gateshead
+|Hitchin
+|'''Whitby'''
+|}
+It is the only one that does not end with a body part.
+
+== 20% ==
+Which four-letter word is missing from this list?
+
+spot<br>opts<br>pots<br>stop<br>tops<br>'''post'''
+
+It is the only other word that can be made from those four letters.
+
+==15% ==
+If 2, 3 and 10 go together, and 6 and 7 go together, which two out of 1, 4, 5, 8 and 9 are a pair?
+
+'''4 and 5''': Numbers are grouped with numbers with which they share a first letter.
+
+== 10% ==
+What is the total of the four pieces of arithmetic seen here?
+
+[[File:Maths.png|frameless]]
+
+(8+3 = 11), (4×2 = 8), (7+5 = 12), (1×2 = 2)
+
+11 + 8 + 12 + 2 = 33
+
+== 5% ==
+What unusual pattern do these words have in common?
+
+FIRST<br>ALMOST<br>BEGIN<br>EMPTY<br>BELOW
+
+They are all words that have their letters in alphabetical order.
+
+==1%==
+What four-letter word fits into the gaps in the sentences below so that they all make sense?
+
+'''Only''' I am certain that he had read the man’s notes.
+
+I am certain that '''only''' he had read the man’s notes.
+
+I am certain that he had read the man’s '''only''' notes.
+[[Category:1% Club Season 2]]

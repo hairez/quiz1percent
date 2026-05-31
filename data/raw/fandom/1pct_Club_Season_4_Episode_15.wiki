@@ -1,0 +1,170 @@
+== 90% ==
+[[File:Cutlery.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |Which item of cutlery is there the most of in this image?
+|-
+|Knives
+|Forks
+|Spoons
+|}
+There are nine spoons, seven forks and six knives.
+
+== 80% ==
+At the ATM, Rakesh couldn’t remember his '''<u>PIN</u>''' number.<br>Bilbo the dog was great at herding sheep into the '''<u>PEN</u>'''.<Br>The greasy frying '''<u>PAN</u>''' was the worst thing to wash up.
+{| class="fandom-table"
+! colspan="4" |Which of the options does NOT correctly fill in any of the gaps in the sentences below?
+|-
+|PAN
+|'''PUN'''
+|PIN
+|PEN
+|}
+
+== 70% ==
+Answer the question below.
+
+John writes with his right hand and the last word he’d write if he was writing this sentence would be '''be'''.<br>If Keith writes with his left hand, what would be the last word he would write in the sentence above?
+
+It doesn’t matter if you’re right-handed or left-handed, the last word in the first sentence is always ‘be’.
+
+== 60% ==
+Which of the words below is not displayed either horizontally, vertically or diagonally in this word search box?
+{| class="fandom-table"
+|P
+|K
+|R
+|U
+|'''S'''
+|R
+|-
+|L
+|O
+|'''T'''
+|C
+|'''P'''
+|'''E'''
+|-
+|'''D'''
+|'''R'''
+|'''A'''
+|'''Z'''
+|'''I'''
+|'''L'''
+|-
+|H
+|'''U'''
+|'''B'''
+|P
+|'''D'''
+|'''A'''
+|-
+|N
+|B
+|'''C'''
+|F
+|'''E'''
+|'''H'''
+|-
+|E
+|P
+|A
+|'''K'''
+|'''R'''
+|'''W'''
+|}
+{| class="fandom-table"
+|BAT
+|DUCK
+|LIZARD
+|-
+|'''PORCUPINE'''
+|SPIDER
+|WHALE
+|}
+PORCUPINE has 9 letters so can’t fit in a 6 x 6 grid.
+
+== 50% ==
+[[File:Rings.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |Which colour ring needs to be cut to free all the others?
+|-
+|RED
+|GREEN
+|YELLOW
+|'''BLUE'''
+|}
+
+== 45% ==
+Which of these is the odd one out?
+
+[[File:Animals.png|frameless]]
+
+Cows does not rhyme with the others – fox, box and socks.
+
+== 40% ==
+Here is a sequence of stars. How many points in total will the final image have?
+
+[[File:Star sequence.png|frameless]]
+
+'''4''': The total number of points on the stars is going down by two in each picture.
+
+== 35% ==
+What number replaces the question mark when you read clockwise from the star?
+
+[[File:Wheel number.png|frameless]]
+
+Alternate segments reveal consecutive multiples of three. 27 is the next number in the three times table.
+
+== 30% ==
+Jamil is writing a limerick but needs a word that follows these rules to complete the last line…
+
+Two syllables, only two different vowels, starts with an even-numbered letter and contains at least three letters from the second half of the alphabet.
+{| class="fandom-table"
+! colspan="5" |Which of these words would work?
+|-
+|DOGGIE
+|BLAZES
+|HOTEL
+|'''PRIZES'''
+|RABBIT
+|}
+DOGGIE has three vowels, BLAZES, HOTEL and RABBIT only have two letters from the second half of the alphabet (N-Z).
+
+== 25% ==
+What letter replaces the question mark in this sequence?
+
+[[File:UDLR.png|frameless]]
+
+The letters represent the first letter of their positions within the boxes – '''U'''P, '''D'''OWN, '''L'''EFT and then '''R''' for '''R'''IGHT.
+
+== 20% ==
+What number replaces the question mark below?
+
+E – 1 = F<Br>W – 2 = V<Br>Q – 1 = O<Br>H – 2 = I<Br>E - '''2''' = L
+
+The number refers to the number of lines that get removed from the first letter to make the second letter.
+
+== 15% ==
+What three consecutive numbers add up to 3000?
+
+'''999, 1000 and 1001'''
+
+== 10% ==
+Answer the question below.
+
+Wh'''at''' num'''ber''' i'''s''' ha'''lf''' o'''f''' fo'''ur'''?
+
+'''2''': The question consists of half of each word in the question.
+
+== 5% ==
+There are six different first letters when you write out the numbers from one to ten. What common word can you spell using all of these six letters?
+
+'''O'''NE '''T'''WO THREE '''F'''OUR FIVE '''S'''IX SEVEN '''E'''IGHT '''N'''INE TEN
+
+'''SOFTEN'''
+
+== 1% ==
+Which commonly used word can go in front of these words to make three new words?
+
+'''TEA'''SING '''TEA'''BAG '''TEA'''RING
+[[Category:1% Club Season 4]]

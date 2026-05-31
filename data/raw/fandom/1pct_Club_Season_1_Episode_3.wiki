@@ -1,0 +1,120 @@
+== Example Question ==
+Can you answer this question?
+
+WHAT TWO LET'''T'''ERS ARE MISS'''I'''NG HERE?
+ EVERYTHING THAT IS SUPPOSED TO BE HERE IS HERE.
+The eye is drawn to the part of the question that is in yellow, so sometimes we ignore the actual question.
+
+== 90% ==
+Which one of these photographs has to be wrong?
+
+[[File:Traffic light.png|frameless]]
+
+'''B''': It should be a red light at the top of a traffic light
+
+== 80% ==
+Which letter of the alphabet appears in the spelling of every single odd number?
+
+On'''e''' Thr'''ee''' Fiv'''e''' S'''e'''v'''e'''n Nin'''e''' El'''e'''v'''e'''n…
+
+== 70% ==
+{| class="fandom-table"
+! colspan="4" |If you toss a normal coin four times and it lands heads up each time, what are the chances it will land heads up next time?
+|-
+|20%
+|'''50%'''
+|10%
+|25%
+|}
+As there are only two options it will always be 50%.
+
+== 60% ==
+Which flower would logically come next in this sequence?
+
+[[File:Flower.png|frameless]]
+
+'''D''': The sequence of flowers goes from three petals to four petals to five petals to six petals, so the flower with seven petals has to be the answer.
+
+== 50% ==
+‘A’ is the first capital letter in the alphabet that looks the same in the mirror. What is the second?
+
+'''H'''
+
+== 45% ==
+{| class="fandom-table"
+! colspan="4" |Which of these is not doing what it says?
+|-
+|FORWARD
+|''UNDERLINED''
+|SDRAWKCAB
+|'''BOLD'''
+|}
+''UNDERLINED'' is in italics instead of being <u>UNDERLINED</u>
+
+== 40% ==
+If you were singing ‘Happy Birthday’ to somebody named Happy, how many times would you sing the word ‘Happy’?
+
+'''HAPPY''' birthday to you, '''HAPPY''' birthday to you, '''HAPPY''' birthday dear '''HAPPY''', '''HAPPY''' birthday to you.
+
+== 35% ==
+You are about to see 11 different pictures flashing up on-screen. Which is the middle picture?
+
+Currently, the actual images are unavailable, but they are:
+
+# Roasted chicken
+# Maths teacher
+# Bicycle
+# Tree
+# Rocket
+# '''Cottage'''
+# Birthday cake
+# Playing cards
+# Dog
+# Ladder
+# Sun
+
+== 30% ==
+January, July and October all have 31 days, but which of these months is the longest?
+
+The clocks go back in '''October''' meaning it has an extra hour.
+
+== 25% ==
+Which legendary figure is written in code below?
+
+HO'''ROB'''OD
+
+Robin Hood
+
+== 20% ==
+What is the only letter of the alphabet missing from this extremely tricky and devious quiz question?
+
+'''J'''
+
+== 15% ==
+{| class="fandom-table"
+! colspan="4" |Which of these is the odd one out?
+|-
+|H & S
+|C & Y
+|P & A
+|'''T & E'''
+|}
+If you replace the & with the word ‘and’ you create the words ‘hands’, ‘candy’ and ‘panda’. However, there is no such word as ‘tande’.
+
+== 10% ==
+What is the longest word in this question that does not contain any letters from the word “MACKEREL”?
+
+‘This’, ‘is’, ‘in’ and ‘not’ don’t contain letters that are in the word “Mackerel”, but ‘'''this'''’ is the longest.
+
+== 5% ==
+Which two letters are missing from this tongue twister?
+
+'''S'''H'''E''' '''SE'''LL'''S SE'''A '''S'''H'''E'''LL'''S''' ON TH'''E SE'''A '''S'''HOR'''E'''
+
+== 1% ==
+How many triangles are there in this picture?
+
+[[File:Triangle.png|frameless]]
+
+'''18'''
+[[Category:1% Club Season 1]]

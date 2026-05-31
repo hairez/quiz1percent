@@ -1,0 +1,101 @@
+==90%==
+{| class="fandom-table"
+! colspan="4" |Which of these is the largest?
+|-
+|CIRCLE
+|TRIANGLE
+|'''RECTANGLE'''
+|SQUARE
+|}
+RECTANGLE is nine letters long. All the others are shorter.
+
+== 80% ==
+[[File:Plan.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |Here is a photograph and floorplan of Hassan’s bungalow. In which room has he left the light on?
+|-
+|KITCHEN
+|BATHROOM
+|'''BEDROOM'''
+|LIVING ROOM
+|}
+
+==70%==
+Which of these structures is made up of a different set of blocks to the other two?
+
+[[File:Blocks.png|frameless]]
+
+C has a different orange block and is missing the green bridge.
+
+==60%==
+What four-letter word replaces the question mark?
+
+'''SO'''FTENI'''NG''' <math>\rightarrow</math> SONG<br>'''RA'''DIOACTI'''VE''' <math>\rightarrow</math> RAVE<Br>'''WH'''ITECO'''AT''' <math>\rightarrow</math> WHAT<br>'''FA'''VOURI'''TE''' <math>\rightarrow</math> '''FATE'''
+
+Each new word is created by using the first two and the last two letters of the original.
+
+==50%==
+Adding what single letter to CONTACT makes it smaller?
+
+Adding an '''R''' makes it CONTRACT.
+
+==45%==
+If you remove a playing card from the first word, a pet from the second word, an insect from the third word and a drink from the fourth word, what number appears?
+
+'''F'''ACE C'''O'''AT A'''U'''NT TEA'''R'''
+
+'''FOUR'''
+
+==40%==
+What three-letter word has a similar meaning when read backwards and also if you move the first letter to the end becomes apt?
+
+When read backwards, '''TAP''' becomes PAT and if you move the first letter to the end, TAP becomes APT.
+
+==35%==
+What single word goes in the gaps below to make new words?
+
+QUICK'''<u>SAND</u>''' THOU'''<u>SAND</u>''' '''<u>SAND</u>'''STONE
+
+==30%==
+What common phrase does this picture represent?
+
+[[File:Pod.png|frameless]]
+
+'''Two peas in a pod'''
+
+==25%==
+Which three different whole numbers – all lower than 10 – give you the same total whether you add them together or multiply them together?
+
+1 + 2 + 3 = 6 and 1 x 2 x 3 = 6
+
+==20%==
+There is only one number missing from this pattern. What is it?
+
+[[File:Number pattern.png|frameless]]
+
+There’s one 1, two 2s, three 3s and five 5s but only three '''4s'''.
+
+==15%==
+If my '''o'''ld br'''o'''wn w'''oo'''lly jumper c'''o'''ntains tw'''o''' h'''o'''les f'''o'''r every '''o''' in this sentence, h'''o'''w many h'''o'''les are there?
+
+The letter o appears 11 times. 11 x 2 = '''22'''
+
+==10%==
+There are four letters written on the circle. The other letters are all outside the circle. You need to turn the circle clockwise until a colour is spelt out. How many 90 degree turns do you need to make?
+
+[[File:Colour 2.png|frameless]]
+
+After '''two''' turns, the p turns to d so the word red appears.
+
+==5%==
+Today, the three witches in Macbeth are discussing when the three should meet again. Witch 1 is available every fourth day, Witch 2 is available every fifth day and Witch 3 is available every sixth day. How many days from today will they be able to meet again?
+
+'''60''' is the first number that is divisible by four, five and six.
+
+== 1% ==
+Peter has recently found his old diary that he’d written in secret code but he can’t remember how to decipher what he wrote. Can you crack the code to find out what the underlined word is?
+
+WH89 I GR1W UP I WA92 21 B8 A <u>5L1RI72</u><br>'''WHEN I GROW UP I WANT TO BE A FLORIST'''
+
+Where he could, he replaced a letter with a digit that starts with that letter.
+[[Category:1% Club Season 4]]

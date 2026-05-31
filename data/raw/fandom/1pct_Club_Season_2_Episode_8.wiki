@@ -1,0 +1,120 @@
+==90%==
+Have a look at the names of these tennis players. Logically, which of the following tennis players could be included in the list?
+{| class="fandom-table"
+! colspan="2" |Andre Agassi, Arthur Ashe, Bjorn Borg
+|-
+|John McEnroe
+|'''Boris Becker'''
+|}
+Each of their first and surnames start with the same letter.
+
+== 80% ==
+Which one of these Vincent van Gogh self-portraits has been altered?
+
+[[File:Van Gogh.png|frameless]]
+
+Vincent is wearing earphones and earphones had not yet been invented.
+
+== 70% ==
+Fiona and James are married. Fiona is always grumpy on a day that has an S in it. And James is always grumpy on a day that has an M in it. What is the only day of the week they are both happy?
+
+'''Friday''': Tue'''s'''day, Wedne'''s'''day, Thur'''s'''day, '''S'''aturday, '''S'''unday are bad for Fiona and '''M'''onday is bad for James.
+
+== 60% ==
+{| class="fandom-table"
+! colspan="4" |Which of these has exactly 15 letters in it?
+|-
+|Latin alphabet
+|English alphabet
+|French alphabet
+|Hebrew alphabet
+|}
+It is not to do with how many letters are in the alphabet. It is that ‘English alphabet’ contains 15 letters.
+
+== 50% ==
+What nine-letter word is hidden in the honeycomb below?
+
+[[File:HONEYCOMB2.png|frameless]]
+
+Honeycomb
+
+== 45% ==
+{| class="fandom-table"
+! colspan="3" |Which of these is not a correct translation of the following: one, two, three, four, five, six, seven, eight?
+|-
+|eins, zwei, drei, vier, fünf, sechs, sieben, acht
+|unu, doi, trei, patru, cinci, șase, șapte, opt
+|'''ένα, δυο, τρία, τέσσερα, πέντε, έξι, επτά'''
+|}
+You do not need to be able to speak any of the languages but you did need to spot that there are only seven numbers, not eight.
+
+== 40% ==
+Which word can replace the question marks in this pyramid?
+
+I<br>IT<br>TIP<br>'''PINT'''<br>POINT<br>PISTON
+
+==35% ==
+What eight-letter body part appears in the following sentence?
+
+When Max struggled to carry his heavy bags, he was told he '''should er'''ect a gym in his bedroom.
+
+== 30% ==
+{| class="fandom-table"
+! colspan="4" |A group of soldiers are on the parade ground, standing to attention and facing west. The sergeant orders them to “Right turn! About-turn! Left turn!” Which direction are they facing now?
+|-
+|North
+| South 
+|'''East'''
+|West
+|}
+They start facing west, then turn right so are facing north. After the about-turn, they are facing south and finally with a left turn, they are facing east.
+
+== 20% ==
+What three-word phrase does this represent?
+
+[[File:Circle of trust 4.png|frameless]]
+
+Circle of trust
+
+==25%==
+What are the first and last days of the week when written out in alphabetical order?
+
+'''Friday''', Monday, Saturday, Sunday, Thursday, Tuesday, '''Wednesday'''
+
+==15%==
+What same three letters can be added to the end of each of these to make three words?
+
+TI'''TLE'''
+
+MAN'''TLE'''
+
+CAS'''TLE'''
+
+== 10% ==
+[[File:Blank square.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |What number should appear on the blank square?
+|-
+|'''4'''
+|5
+|7
+|8
+|}
+It is the number of letters in the background colour that determines the number. Pink is 4, Green is 5, Red is 3, Yellow is 6 so Blue must be 4.
+
+== 5% ==
+Which arrow is the odd one out?
+
+[[File:Odd one out.png|frameless]]
+
+'''8''': It is the only arrow that doesn’t point to at least one other arrow.
+
+==1%==
+In the following sequence, what do the letters V and C stand for?
+
+VCCCVCCCVCCCCCVCCCCCVCCCCC
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+'''Vowel and Consonant''': The sequence represents the 26 letters in the alphabet.
+[[Category:1% Club Season 2]]

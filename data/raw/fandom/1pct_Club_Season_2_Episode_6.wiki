@@ -1,0 +1,109 @@
+==Example==
+What two-digit number do you get when you say the first and the twentieth letters of the alphabet out loud?
+
+'''80'''
+
+== 90% ==
+[[File:HSKT.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |What children’s song does this code rhyme with?
+|-
+|'''Heads, Shoulders, Knees and Toes'''
+|Twinkle, Twinkle, Little Star
+|}
+
+== 80% ==
+Which one of these paintings has been altered?
+
+[[File:Rome trainers.png|frameless]]
+
+There were no trainers or sports socks in Ancient Rome.
+
+==70%==
+{| class="fandom-table"
+! colspan="3" |If Hermione’s wand is shorter than Harry’s and Harry’s wand is longer than Ron’s, and Ron’s is longer than Hermione’s, who has the longest wand?
+|-
+|'''Harry'''
+|Hermione
+|Ron
+|}
+
+==60%==
+Which of the following words would fit in this group of words?
+{| class="fandom-table"
+! colspan="3" |TINY SMALL LITTLE
+|-
+|Second
+|'''Minute'''
+|Hour
+|}
+
+==50%==
+What single letter should be added at the beginning of eight to make it heavy?
+
+'''W'''eight
+
+== 45% ==
+Which flag comes next in this sequence?
+
+[[File:Flag question.png|frameless]]
+
+The first flag has two colours, the second flag has three colours, and the third flag has four colours, so the next flag must have five colours.
+
+==40%==
+{| class="fandom-table"
+! colspan="3" |If you write the words WINNERS and LOSERS with alternating letters, what do you get?
+|-
+|'''WLIONSNEERRSS'''
+|WLINONSEERSRS
+|WLIONSNERSERS
+|}
+
+==35%==
+What five-letter animal appears in the following sentence?
+
+David liked to la'''ze bra'''vely amongst the shady trees in the safari park.
+
+==30%==
+Which digit occurs the most often when all the numbers from 1 to 1000 are listed?
+
+From 1 to 1000 there are 192 zeros, while all the other digits except 1 occur 300 times each. The 1 occurs 301 times.
+
+==25%==
+If a flea likes to sleep on a leaf and a hornet likes to sit on a throne, a horse likes to gallop along a what?
+
+The words are anagrams of each other, and ‘shore’ is an anagram of ‘horse’.
+
+==20%==
+If you were to fill a chessboard with the letters of the alphabet, starting back at A each time you got to Z, what letter would be in the 64th square?
+
+The chessboard is irrelevant. This question is merely asking “What is the 12th letter of the alphabet?”. There are 26 letters in the alphabet. Once you have counted 52 letters you need to identify the 12th one which is L.
+
+==15%==
+If BZAAZFD is code for CABBAGE, what vegetable is STQMHO code for?
+
+Each letter in the code is the one before the letter in the real word. so STQMHO is TURNIP.
+
+==10%==
+Logically, what should the last number on this credit card be?
+
+1248 1632 6412 825'''6'''
+
+It is a sequence of numbers where each one is doubled: 1, 2, 4, 8, 16 etc, all the way to 128 which, when doubled, is 256.
+
+== 5% ==
+What three letters should replace the question marks under the KEY for it to be like the other pictures?
+
+[[File:Turkey.png|frameless]]
+
+Tur'''key''' An'''go'''la Ja'''pan''' Bot'''swan'''a
+
+The words suggested in the images fill in the gaps to make the names of countries. TUR in front of KEY makes TURKEY.
+
+==1%==
+The following rows all represent something. What specifically does the last row of numbers represent that makes it different from the other three?
+
+312831303130313130313031<br>312831303130313130313031<br>312831303130313130313031<br>312931303130313130313031
+
+'''A leap year''': Each two-digit number is the number of days in the month.
+[[Category:1% Club Season 2]]

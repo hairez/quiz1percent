@@ -1,0 +1,136 @@
+==90%==
+[[File:Cars.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |If all the cars were grouped into colours, which colour would there be the most of?
+|-
+|Silver
+|Blue
+|Red
+|'''Yellow'''
+|}
+There are 8 Yellow cars and only 7 Blue, 7 Silver and 5 Red.
+
+==80%==
+Each of these criminals will be in jail for ten years but which has the longer sentence?
+
+[[File:Sentence.png|frameless]]
+
+The sentence “I will spend the next ten years in prison because of my crimes” is literally longer than “I will be in jail for ten years”.
+
+==70%==
+[[File:Nachos.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |Four friends are eating nachos together. One of them eats the most. Regan is the only one to eat nothing. The person who eats the most is sitting opposite the person to the immediate left of Regan. Who ate the most food?
+|-
+|Lucero
+|Manel
+|Regan
+|'''Nic'''
+|}
+Nic is sitting opposite Lucero who is to the immediate left of Regan who ate nothing.
+
+==60%==
+Which hand signal comes next?
+
+[[File:Hand signal.png|frameless]]
+
+Each box shows an increasing number of raised digits – 1, 2, 3 and 4. The next box needs to show 5 raised digits.
+
+==50%==
+{| class="fandom-table"
+! colspan="4" |Which of these is the odd one out in this CONUNDRUM?
+|-
+|CORD
+|NORM
+|NOUN
+|'''MOON'''
+|}
+This is the only word that cannot be made from the letters in CONUNDRUM.
+
+==45%==
+How many left hands are there in this photo?
+
+[[File:Left hands.png|frameless]]
+
+'''8'''
+
+==40%==
+{| class="fandom-table"
+|Mum
+|9 points
+|-
+|Dad
+|8 points
+|-
+|Son
+|3 points
+|-
+|Daughter
+|1 point
+|}
+{| class="fandom-table"
+! colspan="4" |A family of four have all played each other head-to-head in a round robin at their favourite game. They’ve each played three games and it’s three points for a win, one point for a draw and no points for a loss. After they finish they each put their points total up on the board – which of them MUST be lying about their score?
+|-
+|Mum
+|'''Dad'''
+|Son
+|Daughter
+|}
+It is impossible to score 8 points from 3 games under that scoring system.
+
+==35%==
+{| class="fandom-table"
+! colspan="2" |Which statement is true?
+|-
+|A
+|There are more vowels in the word ‘consonant’ than there are consonants in the word ‘vowel’.
+|-
+|B
+|There are fewer vowels in the word ‘consonant’ than there are consonants in the word ‘vowel’.
+|-
+|'''C'''
+|'''There are the same number of vowels in the word ‘consonant’ as there are consonants in the word ‘vowel’.'''
+|}
+
+==30%==
+A family of five people have 20 fortune cookies at their dinner. Half have fortune messages in them and the other half are empty. They crack open the fortune cookies one by one. What is the HIGHEST number of fortune messages they could have read out after they have cracked open 12 cookies?
+
+The highest number of messages has to be 10 because there are only 10 messages.
+
+==25%==
+Ignoring colours, how many shapes only appear once in this image?
+
+[[File:Shapes.png|frameless]]
+
+There is only one pentagon, one cross and one hexagon.
+
+==20%==
+{| class="fandom-table"
+! colspan="4" |Answer the question below:<br>A travel agent receives:<br>54 bookings for Lanzarote<br>22 for Bali<br>34 for Jamaica<br>43 for Florida.<br>How many bookings do they take for Ibiza?
+|-
+|'''23'''
+|41
+|55
+|64
+|}
+The number of bookings relates to the number of consonants followed by the number of vowels in the name of each destination.
+
+==15%==
+Mike is driving a bus. He picks up his first five passengers at the first stop. At the next stop, two get off and nine get on. Three passengers get off at the next stop, and at the last stop four more passengers get on. How many people are now on the bus?
+
+There are 13 passengers and Mike the driver.
+
+==10%==
+There is one word which all the words below have in common. What is it?
+
+DARK<br>EXTINGUISH<br>HEAVY
+
+All the words are opposites of the word ‘light’.
+
+== 1% ==
+Which number replaces the question mark below?
+
+100 – 2 = 98<br>71 + 5 = 76<br>54 x 1 = 54<br>31 + 1 = 32<br>2 x '''5''' = 10
+
+The sums work out as: 98, 76, 54, 32, so the next one must work out as 10 to complete a sequence of 9876543210.
+[[Category:1% Club Season 3]]

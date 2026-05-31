@@ -1,0 +1,105 @@
+==Example Question==
+What is the answer to this question?
+
+What '''I if''' told you there is a mistake in this sentence? What would you say the mistake is?
+
+==90%==
+Logically, which of these children’s characters could be included in this sequence?
+{| class="fandom-table"
+! colspan="2" |Humpty Dumpty   Tinky Winky   Andy Pandy
+|-
+|'''Incy Wincy'''
+|Postman Pat
+|}
+The sequence is made up of characters whose names rhyme, so Incy Wincy is the only correct option.
+
+== 80% ==
+Which photo of these famous landmarks cannot be real?
+
+[[File:Landmark.png|frameless]]
+
+'''A''': The Statue of Liberty has the London skyline behind it.
+
+==70%==
+Which shape comes next?
+
+[[File:Shape sequence.png|frameless]]
+
+'''A''': They are just numbers placed next to their mirror image. The next number in the sequence is 4.
+
+==60%==
+These tennis players are identical twins who always dress the same way on court, yet it is very easy to tell them apart. How?
+
+[[File:Tennis.png|frameless]]
+
+'''One is left-handed, one is right-handed.'''
+
+==50%==
+Take a look at what is written below and answer the question.
+
+Own lee too '''words''' our rite inn '''this''' sentents. Witch to?
+
+==45%==
+In this puzzle, which animal is the heaviest?
+
+[[File:Scales.png|frameless]]
+
+'''B''': If the elephant and mouse weigh the same, and the mouse is heaver than the bear, and the rabbit is heavier than the elephant, then the rabbit must be the heaviest.
+
+==40%==
+Take a good look at this picture. Which candle will burn down first?
+
+[[File:Candle.png|frameless]]
+
+'''B''': It is the only candle that is alight.
+
+==35%==
+{| class="fandom-table"
+! colspan="4" |Which of these does not mean “backwards not forwards” in a foreign language?
+|-
+|Inapoi nu înainte
+| Geriye, ileriye doğru değil
+|'''Esrever ni hsilgne tsuj si siht'''
+|Rückwärts nicht vorworts
+|}
+You didn’t need to know any foreign languages but you did need to spot that option C when read backwards says “This is just English in reverse”
+
+==30%==
+If your newspaper has 20 pages – with the front cover as page 1 and the back cover as page 20 – and you read every page, how many times do you have to turn the page?
+
+'''10''': Many people think the answer is 9 because they forget to turn the back page
+
+==25%==
+What number between 1 and 100 has the most syllables when said out loud?
+
+Seven is the only number between one and ten that has two syllables – the rest have only one. So, the number with the most syllables has to be '''77'''.
+
+==20%==
+What well-known three-word expression is written in code below?
+
+THO'''DEEP'''UGHT
+
+'''Deep in thought'''
+
+==15%==
+Which animal is half go'''at''' and one third '''c'''ow?
+
+If you take the ‘c’ from cow, which is one third of its letters, and place it next to the ‘at’ from goat, which is half its letters, you get ‘'''cat'''’.
+
+==10%==
+Which is the odd one out?
+
+'''Coffee'''<br>Dresser<br>Grammar<br>Potato<br>Revive<br>Uneven
+
+If you take the first letter of every word and put it at the end it would spell the same word backwards – apart from coffee
+
+==5%==
+What can be placed between 3 and 7 to produce a number that is bigger than 3 and smaller than 7?
+
+If you put a '''decimal point''' between 3 and 7 it becomes 3.7
+
+== 1%==
+On a digital 24-hour clock that displays hours, minutes and seconds, how many times in each 24-hour period do all six digits change simultaneously?
+
+09:59:59 becomes 10:00:00<br>19:59:59 becomes 20:00:00<br>23:59:59 becomes 00:00:00
+[[Category:1% Club Season 1]]

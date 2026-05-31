@@ -1,0 +1,107 @@
+== 90% ==
+Which of the following emojis replaces the question mark in this sequence?
+
+[[File:Emojis.png|frameless]]
+
+The bottom row of emojis are upset and C is the only option that follows that pattern.
+
+== 80% ==
+What word is represented here?
+
+LEM'''<BR>'''ADE
+
+'''LEMONADE''': LEM is on ADE.
+
+== 70% ==
+The rules of this puzzle are that the triangle can fit inside both the circle and the square. However, the circle can only fit inside the square. Which of these is the only one which follows the rules?
+
+[[File:SQUARE CIRCLE.png|frameless]]
+
+C is the only option in which the circle fits inside the square.
+
+== 60% ==
+Which of these butterflies is exactly the same on both sides?
+
+[[File:Butterflies.png|frameless]]
+
+'''B'''
+
+== 50% ==
+What three-word scientific phrase is represented below?
+
+[[File:Fight flight.png|frameless]]
+
+'''Fight or flight'''
+
+== 45% ==
+{| class="fandom-table"
+! colspan="3" |Which of these can have two of its letters swapped over and still result in a valid word?
+|-
+|CON'''V'''ER'''S'''ATION
+|DIALOGUE
+|CHAT
+|-
+|CON'''S'''ER'''V'''ATION
+|
+|
+|}
+
+== 40% ==
+Barbra is about to perform in the opening night of a West End show and is looking out for her partner, James. She knows he is sitting in row B, seat 8. Where does he appear from her view on the stage?
+
+[[File:Stage.png|frameless]]
+
+'''B'''
+
+== 35% ==
+The word BACKFIELD contains 9 of the 13 letters from the first half of the alphabet. Which 4 letters from the first half of the alphabet are not used in this word?
+
+'''G, H, J and M'''
+
+== 30% ==
+These are the top halves of three different capital letters that are all the same size. What three letters are they?
+
+[[File:BPR.png|frameless]]
+
+'''BPR'''
+
+== 25% ==
+This figure starts in square 1. It makes ten moves as shown below. It moves each time in the direction in which it points. What number square does it end up in?
+
+[[File:Man square.png|frameless]]
+
+'''19'''
+
+== 20% ==
+These two leaves in Kate’s garden always attract ladybirds. The left leaf always has ladybirds with four spots on and the right leaf always has ladybirds with six spots on. How many spots would there be in total if one more ladybird lands on each leaf?
+
+[[File:Ladybirds leaf.png|frameless]]
+
+Left leaf: five ladybirds = 20 spots. Right leaf: four ladybirds = 24. TOTAL = '''44'''
+
+== 15% ==
+If you remove the word ‘BRA’ from each of these lines of letters, how many lines will end with a vowel?
+
+[[File:ABACADABRA.png|frameless]]
+
+'''5:''' Because every BRA is preceded by an A, exactly the same number of lines will end with a vowel.
+
+== 10% ==
+In this puzzle, which one of these words doesn’t belong?
+
+[[File:HUNGARY.png|frameless]]
+
+All the other words can be paired to make the names of countries. You would need ARY to make HUNG+ARY.
+
+== 5% ==
+How many different words are there in the tongue twister below?
+
+'''SHE SELLS SEA SHELLS BY THE SEASHORE'''. THE SHELLS SHE SELLS '''ARE SURELY''' SEA SHELLS. '''SO IF''' SHE SELLS SHELLS '''ON''' THE SEASHORE, '''I AM SURE''' SHE SELLS SEASHORE SHELLS.
+
+'''15'''
+
+== 1% ==
+What is the lowest number to have the same value as ten times the number of letters in its name?
+
+'''FIFTY''' has five letters. 5 x 10 = 50
+[[Category:1% Club Season 4]]

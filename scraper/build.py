@@ -20,6 +20,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "questions-raw.json"
+WIKI_JSON = ROOT / "data" / "questions-fandom.json"
 IMG_DIR = ROOT / "public" / "questions"
 IMG_DIR.mkdir(parents=True, exist_ok=True)
 OUT_JSON = ROOT / "public" / "questions.json"
@@ -30,6 +31,88 @@ UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
+
+FANDOM_API = "https://only-connect-questions.fandom.com/api.php"
+
+# Per-record fixes applied after canonicalisation. Each entry is a shallow merge
+# into the canonical record. Use when the parser can't be improved generically -
+# usually for source-article typos where the wrong answer was pasted under a
+# question heading. Cross-referenced against the Fandom wiki audit (see
+# scraper/audit_fandom.py and data/audit-fandom.md).
+MANUAL_OVERRIDES: dict[str, dict] = {
+    # Wiki audit: ours stored the answer as "O, W, and N"; the show accepts any
+    # arrangement (OWN/WON/NOW are all built from the same three letters).
+    "uk-s4-e2-25": {
+        "correct_text": "OWN",
+        "accepted_answers": [
+            "own", "won", "now", "onw", "wno", "nwo",
+            "o w n", "o, w, n", "o w and n", "o, w, and n", "o, w and n",
+        ],
+    },
+    # Show answer is "DR" (the two letters). Ours stored "D and R".
+    "uk-s4-e2-15": {
+        "correct_text": "DR",
+        "accepted_answers": ["dr", "d r", "d, r", "d and r", "d, and r"],
+    },
+    # Show answer is "BPR" (the three letters). Ours stored "B, P, and R".
+    "uk-s4-e7-30": {
+        "correct_text": "BPR",
+        "accepted_answers": [
+            "bpr", "b p r", "b, p, r", "b p and r", "b, p, and r", "b, p and r",
+        ],
+    },
+    # Our scraper captured the explanation ("They represent strings, brass and
+    # wind") as the answer. The wiki has the real shape: a 3-option MC with
+    # "In an orchestra" as the correct choice.
+    "uk-s4-e13-80": {
+        "type": "mc",
+        "options": ["In an orchestra", "In a cinema", "On a football pitch"],
+        "correct_index": 0,
+        "correct_text": "In an orchestra",
+        "accepted_answers": None,
+        "explanation": "They represent strings, brass and wind.",
+    },
+    # Our answer "Cow" bled in from the neighbouring "animal sounds" question.
+    # Wiki answer is "C & E" with explanation that each letter forms a new word
+    # in front of its row.
+    "uk-s4-e12-15": {
+        "correct_text": "C & E",
+        "accepted_answers": [
+            "c & e", "c and e", "c, e", "e & c", "e and c", "ce", "ec",
+        ],
+        "explanation": "Each word sounds like a new word if you include the letter in front of it.",
+    },
+    # Our scraper stored "5" with explanation about people sitting down - wrong
+    # question entirely. Wiki has the real 4-colour-ring puzzle with answer BLUE.
+    "uk-s4-e15-50": {
+        "type": "mc",
+        "options": ["RED", "GREEN", "YELLOW", "BLUE"],
+        "correct_index": 3,
+        "correct_text": "BLUE",
+        "accepted_answers": None,
+        "explanation": "",
+    },
+    # Comingsoon source has "iNiital" typo (should be "iNitial"). Wiki spells it
+    # correctly. Dedupe still prefers the comingsoon record (earlier-season tie
+    # breaker), so fix the option here.
+    "uk-s4-e11-60": {
+        "options": ["penultimatE", "cenTral", "iNitial"],
+        "correct_index": 1,
+        "correct_text": "cenTral",
+    },
+}
+
+
+def apply_manual_overrides(record: dict) -> None:
+    """Apply per-id fixes from MANUAL_OVERRIDES in-place."""
+    override = MANUAL_OVERRIDES.get(record["id"])
+    if not override:
+        return
+    record.update(override)
+    existing_note = record.get("notes") or ""
+    tag = "manual override applied"
+    if tag not in existing_note:
+        record["notes"] = (existing_note + " | " if existing_note else "") + tag
 
 NUMBER_WORDS = {
     "0": ["zero"], "1": ["one"], "2": ["two"], "3": ["three"], "4": ["four"],
@@ -302,6 +385,135 @@ def canonicalize(raw: dict) -> dict | None:
     return record
 
 
+def wiki_record_to_canonical(w: dict) -> dict | None:
+    """Convert a Fandom-wiki record (data/questions-fandom.json) into the public
+    schema. Returns None if the record isn't import-ready.
+
+    Filters out low-quality wiki rows:
+      - confidence: low (parser couldn't extract cleanly)
+      - empty question_text
+      - answer is just a single letter A-E without options (would be unplayable)
+      - text answer is a recognised wiki-only artifact ('<BR>', etc.)
+    """
+    if w.get("confidence") == "low":
+        return None
+    q_text = (w.get("question_text") or "").strip()
+    if not q_text or len(q_text) < 15:
+        return None
+    answer = (w.get("correct_text") or "").strip()
+    if not answer:
+        return None
+    # Reject wiki parser artefacts: tags, single-letter answers without context.
+    if answer.startswith("<") or answer in {"&", "''"}:
+        return None
+    explanation = (w.get("explanation") or "").strip()
+    # Strip the trailing "Category:..." line that some wiki pages end with.
+    explanation = re.sub(r"\s*Category:\s*1%\s*Club[^\n]*$", "", explanation).strip()
+
+    show_version = w.get("show_version") or "uk"
+    season = w.get("season") or 0
+    episode = w.get("episode") or 0
+    if w.get("special"):
+        # Synthetic season/episode so the sort key stays stable. The id still
+        # carries the special label for human reference.
+        season, episode = 0, 0
+
+    record = {
+        "id": w["id"],
+        "show_version": show_version,
+        "season": season,
+        "episode": episode,
+        "difficulty": w["difficulty"],
+        "question_text": q_text,
+        "question_image": None,
+        # Internal: scratch field used by the downstream image-download stage.
+        "image_url": f"wiki:{w['image_filename']}" if w.get("image_filename") else None,
+        "type": "text",
+        "options": None,
+        "correct_index": None,
+        "accepted_answers": None,
+        "correct_text": None,
+        "explanation": explanation,
+        "source_url": w.get("source_url", ""),
+        "confidence": "medium",  # second-hand source - mark below comingsoon
+        "notes": "imported from Fandom wiki",
+    }
+
+    options = w.get("options")
+    if options and w.get("correct_index") is not None:
+        record["type"] = "mc"
+        record["options"] = options
+        record["correct_index"] = w["correct_index"]
+        record["correct_text"] = options[w["correct_index"]]
+    elif options and w.get("correct_index") is None:
+        # Options without a clear correct index -> not playable as MC. Skip.
+        return None
+    else:
+        # Text question. A single bare letter (A-E) is the placeholder-MC pattern;
+        # without options it would be unplayable. Drop unless we have an image
+        # (rare on the wiki) and could turn it into placeholder MC.
+        if re.fullmatch(r"[A-E]", answer):
+            if not w.get("image_filename"):
+                return None
+            record["type"] = "mc"
+            record["options"] = ["(A)", "(B)", "(C)", "(D)"]
+            try:
+                record["correct_index"] = ["A", "B", "C", "D"].index(answer)
+            except ValueError:
+                return None
+            record["correct_text"] = f"({answer})"
+            record["notes"] += "; options in image only - pick the lettered choice"
+        else:
+            record["accepted_answers"] = expand_accepted(answer)
+            record["correct_text"] = answer.rstrip(".!?,;: ")
+
+    if not record["correct_text"]:
+        return None
+    return record
+
+
+def resolve_wiki_image_urls(
+    filenames: list[str], session: requests.Session
+) -> dict[str, str]:
+    """Batch-resolve File:X.png titles to their CDN URLs via the imageinfo API.
+
+    MediaWiki accepts up to 50 titles per query.
+    """
+    result: dict[str, str] = {}
+    if not filenames:
+        return result
+    # The wiki stores titles with spaces converted to underscores; the API
+    # accepts both forms but spaces are safer.
+    titles = sorted({f.replace("_", " ") for f in filenames})
+    for i in range(0, len(titles), 50):
+        batch = titles[i:i + 50]
+        params = {
+            "action": "query",
+            "titles": "|".join(f"File:{t}" for t in batch),
+            "prop": "imageinfo",
+            "iiprop": "url|size",
+            "format": "json",
+        }
+        try:
+            r = session.get(FANDOM_API, params=params, timeout=30)
+            r.raise_for_status()
+            data = r.json()
+            for page in (data.get("query", {}).get("pages") or {}).values():
+                title = page.get("title", "")
+                if not title.startswith("File:"):
+                    continue
+                name = title[len("File:"):]
+                ii = (page.get("imageinfo") or [{}])[0]
+                url = ii.get("url")
+                if url:
+                    result[name] = url
+                    result[name.replace(" ", "_")] = url
+        except Exception as e:
+            print(f"  imageinfo batch failed: {e}")
+        time.sleep(0.5)
+    return result
+
+
 def download_image(url: str, out_path: Path, session: requests.Session) -> tuple[bool, str]:
     """Download an image. Returns (success, error_or_path)."""
     try:
@@ -375,8 +587,35 @@ def main():
         if c is None:
             canon_drops.append((r["id"], "could not canonicalize"))
         else:
+            apply_manual_overrides(c)
             canonical.append(c)
     print(f"canonicalized: {len(canonical)} (dropped {len(canon_drops)})")
+
+    overrides_applied = sum(1 for c in canonical if c["id"] in MANUAL_OVERRIDES)
+    print(f"manual overrides applied: {overrides_applied}")
+
+    # Bulk-import wiki records the comingsoon source doesn't have. Includes
+    # UK S1-S3, the Christmas/Soccer Aid specials, and any UK S4 gaps.
+    existing_ids = {c["id"] for c in canonical}
+    wiki_imported: list[dict] = []
+    wiki_skipped: list[tuple[str, str]] = []
+    if WIKI_JSON.exists():
+        wiki_records = json.loads(WIKI_JSON.read_text(encoding="utf-8"))
+        for w in wiki_records:
+            if w["id"] in existing_ids:
+                continue
+            converted = wiki_record_to_canonical(w)
+            if converted is None:
+                wiki_skipped.append((w["id"], w.get("notes") or w.get("confidence")))
+                continue
+            wiki_imported.append(converted)
+        print(
+            f"wiki import: +{len(wiki_imported)} new records "
+            f"(skipped {len(wiki_skipped)} low-confidence/unplayable)"
+        )
+        canonical.extend(wiki_imported)
+    else:
+        print(f"wiki import: skipped (no {WIKI_JSON.relative_to(ROOT)})")
 
     # Dedupe across editions
     kept, dups = dedupe(canonical)
@@ -385,6 +624,25 @@ def main():
     # Download images
     session = requests.Session()
     session.headers.update({"User-Agent": UA, "Referer": "https://www.comingsoon.net/"})
+
+    # Resolve Fandom File:Foo.png references to real CDN URLs.
+    wiki_image_titles = [
+        rec["image_url"][len("wiki:"):]
+        for rec in kept
+        if (rec.get("image_url") or "").startswith("wiki:")
+    ]
+    wiki_url_map: dict[str, str] = {}
+    if wiki_image_titles:
+        print(f"resolving {len(set(wiki_image_titles))} wiki image titles...")
+        wiki_url_map = resolve_wiki_image_urls(wiki_image_titles, session)
+        print(f"  resolved {len(set(wiki_url_map.values()))}")
+    for rec in kept:
+        url = rec.get("image_url") or ""
+        if url.startswith("wiki:"):
+            title = url[len("wiki:"):]
+            real = wiki_url_map.get(title) or wiki_url_map.get(title.replace("_", " "))
+            rec["image_url"] = real  # may be None if unresolved
+
     img_failures: list[tuple[str, str]] = []
     for rec in kept:
         url = rec.pop("image_url", None)
@@ -415,8 +673,15 @@ def main():
     image_required_drops: list[tuple[str, str]] = []
     for rec in kept:
         # If question text references the image and we couldn't fetch it, drop.
+        # MC questions with real (non-placeholder) options are playable from text
+        # alone even when the prose says "below" - skip the visual check for them.
         text = rec["question_text"].lower()
-        looks_visual = any(
+        has_real_options = (
+            rec.get("type") == "mc"
+            and rec.get("options")
+            and not all(re.fullmatch(r"\([A-E]\)", o) for o in rec["options"])
+        )
+        looks_visual = (not has_real_options) and any(
             kw in text
             for kw in [
                 "spot the difference", "shown below", "shown above", "below is",
@@ -498,6 +763,7 @@ def main():
     print(f"wrote {OUT_REPORT}")
 
     # Sources doc
+    wiki_count = sum(1 for r in final if "fandom.com" in (r.get("source_url") or ""))
     src_lines = [
         "# Sources",
         "",
@@ -510,11 +776,13 @@ def main():
         "- comingsoon.net — UK Season 5: <https://www.comingsoon.net/guides/features/2041778-1-percent-club-uk-questions-answers-season-5-2025-solutions-series-five>",
         "- comingsoon.net — US Season 1: <https://www.comingsoon.net/guides/features/1788741-1-percent-club-questions-answers-tonight-last-night-tv-show>",
         "- comingsoon.net — US Season 2: <https://www.comingsoon.net/guides/features/1987178-1-percent-club-questions-answers-season-2-2025-solutions-joel-mchale>",
+        "- only-connect-questions.fandom.com (MediaWiki API) — UK Seasons 1-3 plus the Christmas 2023, Christmas 2024 and Soccer Aid 2025 specials.",
         "",
         "## Counts in final bank",
         "",
         f"- Total: **{len(final)}** questions",
         f"- UK: {by_show.get('uk', 0)} · US: {by_show.get('us', 0)}",
+        f"- From Fandom wiki (UK S1-S3 + specials + S4 gap-fills): {wiki_count}",
         f"- With image: {with_img}",
         f"- Multiple-choice: {by_type.get('mc', 0)} · Free-text: {by_type.get('text', 0)}",
         "",

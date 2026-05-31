@@ -1,0 +1,126 @@
+== 90% ==
+These four vehicles are all on the same length road and will travel the same distance at the same speed. Which one will reach the destination first?
+
+[[File:Cars2.png|frameless]]
+
+B: It is the only one with a green light.
+
+== 80% ==
+[[File:Rhyme.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |Which nursery rhyme does this code rhyme with?
+|-
+|Three Blind Mice
+|'''Baa Baa Black Sheep'''
+|Hey Diddle Diddle
+|}
+
+== 70% ==
+When Sweden plays Denmark at football, the display shows SWE-DEN. What word do all the unused letters spell?
+
+'''DENMARK'''
+
+== 60% ==
+[[File:Happy sad.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |Have a look at this picture. Are there more happy faces or sad faces?
+|-
+|'''Happy'''
+|Sad
+|}
+There are ten happy faces and eight sad ones.
+
+== 50% ==
+If each number on a 12-hour analogue clock is added together with the number directly opposite it, what is the highest possible total for any single pair of numbers?
+
+'''18''': 12 + 6
+
+== 45% ==
+{| class="fandom-table"
+! colspan="4" |Which of these can take each one of the five vowels (AEIOU), one at a time, to make five common English words?
+|-
+|L_Y
+|R_P
+|S_X
+|'''B_G'''
+|}
+BAG, BEG, BIG, BOG, BUG
+
+== 40% ==
+{| class="fandom-table"
+! colspan="3" |Which of these words is an anagram of itself?
+|-
+|suppress
+|'''stifle'''
+|squash
+|}
+
+== 35% ==
+{| class="fandom-table"
+! colspan="4" |A day lasts approximately 10 hours on Jupiter. If you teleport to Jupiter from the UK on Monday at 9am, and stay there for 8 Jupiter days, what day of the week would it be in the UK when you teleport back to Earth?
+|-
+|Wednesday
+|'''Thursday'''
+|Friday
+|Saturday
+|}
+8 Jupiter days last 80 hours. On Earth, 80 hours is 3 days and 8 hours. So you would arrive back in the UK on Thursday at 5pm.
+
+== 30% ==
+Which of the words below logically comes next in this sequence?
+{| class="fandom-table"
+! colspan="3" |'''A'''lcatra'''z''' '''B'''err'''y''' '''C'''o'''x''' ________
+|-
+|Doughnut
+|'''D'''isallo'''w'''
+|Dusty
+|}
+The 1st word starts with the 1st letter of the alphabet and ends with the last letter. The 2nd word starts with the 2nd letter and ends with the 2nd from last. The 4th word in the sequence therefore has to start with the 4th letter ‘D’ and end in the 4th from last ‘W’.
+
+== 25% ==
+Which of these is the odd one out?
+
+[[File:Bends.png|frameless]]
+
+Each word features a design that rhymes with it – wipes/stripes, yachts/sports, cars/stars. Bends does not rhyme with zigzags.
+
+== 20% ==
+To which body part can you add one letter at the start to make it the word for the job it does?
+
+Add an 'h' to ear to make hear.
+
+== 15% ==
+Which of these cards is the odd one out?
+
+[[File:Seven hearts.png|frameless]]
+
+The seven of hearts should be a red card, not black.
+
+== 10% ==
+{| class="fandom-table"
+! colspan="4" |Considering the Pros and Cons of these words, which is the odd one out?
+|-
+|tractor
+|found
+|test
+|'''claim'''
+|-
+|Protractor/Contractor
+|Profound/Confound
+|Protest/Contest
+|
+|}
+All the words become new words with both Pro and Con in front of them and although claim because ‘Proclaim’, ‘Conclaim’ is not a word.
+
+== 5% ==
+When the number 777,777 is written out in words, how many times does the letter ‘e’ appear?
+
+S'''e'''v'''e'''n hundr'''e'''d and s'''e'''v'''e'''nty-s'''e'''v'''e'''n thousand, s'''e'''v'''e'''n hundr'''e'''d and s'''e'''v'''e'''nty-s'''e'''v'''e'''n.
+
+== 1% ==
+What three-digit number comes next in this sequence?
+
+[[File:111.png|frameless]]
+
+All the numbers in this sequence remain the same when rotated 180 degrees. 111 is the next number for which this is true.
+[[Category:1% Club Season 3]]

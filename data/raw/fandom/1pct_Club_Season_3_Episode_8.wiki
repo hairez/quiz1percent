@@ -1,0 +1,117 @@
+==90%==
+Which of these sticks was put down on the table first?
+
+[[File:Sticks.png|frameless]]
+
+B is on top, then D, then C, then E, then A – so A must have been put down first.
+
+==80%==
+[[File:Cat.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |Which word does NOT go with this picture?
+|-
+|burglar
+|nap
+|'''paddle'''
+|walk
+|}
+The other words can go after cat to make new things – cat burglar, catnap, catwalk – but paddle cannot.
+
+==70%==
+Blue elephants are not as big as red elephants. Yellow elephants are smaller than blue elephants. Green elephants are never separated from red elephants. The largest elephant is always at the back. What is the correct elephant order?
+
+[[File:Elephants.png|frameless]]
+
+Green and red elephants are never separated so it has to be B.
+
+==60%==
+{| class="fandom-table"
+! colspan="2" |If every month had 30 days, instead of some with 30 and some with 28, 29 or 31, would there be more or fewer days in the year?
+|-
+|More
+|'''Fewer'''
+|}
+12 x 30 = 360 days. A standard year has 365 days.
+
+==50%==
+[[File:Keypad.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |Which of these words is spelt using letters from only two keys on this keypad?
+|-
+|BANANAS
+|'''PREFERRED'''
+|MONOPOLY
+|MISSION
+|}
+You can spell PREFERRED using only keys 3 and 7.
+
+==45%==
+Which month logically completes this sentence?
+{| class="fandom-table"
+! colspan="3" |'''A'''fter '''b'''uying '''c'''hrysanthemums '''D'''avina '''e'''xperimented, '''f'''irstly '''g'''rowing '''h'''yacinths '''i'''n…
+|-
+|'''July'''
+|August
+|September
+|}
+The first letter of each word is in alphabetical order.
+
+==40%==
+The number in each shape is supposed to be the same as the number of sides that the shape has. How many of the numbers are correct?
+
+[[File:Shapes 2.png|frameless]]
+
+'''2'''
+
+==35%==
+If you wrote this sentence backwards, meaning you reversed all the letters in each word and '''did''' not just write the words in the opposite order, which word would stay exactly the same as it is now?
+
+It is the only word in the sentence which can be read the same forwards and backwards.
+
+==30%==
+Logically, which word could join this group?
+{| class="fandom-table"
+! colspan="3" |'''DEF'''ENDER '''HIJ'''ACK '''STU'''PID
+|-
+|YEP
+|'''NOP'''E
+|MAYBE
+|}
+The words in the group all start with three consecutive letters. NOPE is the only option which does the same.
+
+==25%==
+If you had 8 fingers on your left hand, 6 fingers on your right hand, the same number of toes on your right foot as your left hand and 3 toes on your left foot, how many fingers and toes would you have in total?
+
+8 fingers + 6 fingers + 8 toes + 3 toes = '''25'''.
+
+==20%==
+What is the difference between these two images?
+
+[[File:Spot the difference.png|frameless]]
+
+Spot and Stop
+
+==15%==
+A chessboard has eight squares along each side. How many squares are there in total on the four sides around the outside of the chessboard?
+
+'''28''': Although there are eight squares along each side, each corner square can only be counted once.
+
+==10%==
+Logically, other than all having one syllable, what connects this group of words?
+
+SLACK '''B'''LACK<br>GRANGE '''O'''RANGE<br>LED '''R'''ED<br>SINK '''P'''INK
+
+They are all colours with their first letter changed.
+
+==5%==
+On a standard analogue clock face, how many digits appear exactly once?
+
+'''8''': 0 in the 10 and then 3, 4, 5, 6, 7, 8, 9.
+
+==1%==
+What number should replace the question mark?
+
+JAMAICA + JAPAN = 124<br>ARGENTINA + ARMENIA = 1245<br>FRANCE + BRAZIL = 23<br>ENGLAND + GERMANY = '''56'''
+
+The numbers are the positions of any shared letters… e.g. Argentina and Armenia share the 1st, 2nd, 4th and 5th letters. So England and Germany is 56, for the A and the N.
+[[Category:1% Club Season 3]]

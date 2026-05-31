@@ -1,0 +1,147 @@
+==90%==
+[[File:Puppet.png|frameless]]
+{| class="fandom-table"
+! colspan="2" |In order to move the puppet’s left arm, does the puppeteer need to move their own left hand or right hand?
+|-
+|Left hand
+|'''Right hand'''
+|}
+
+==80%==
+What common two-word phrase for someone who is lazy is being represented here?
+
+[[File:Couch potato.png|frameless]]
+
+'''Couch potato'''
+
+==70%==
+{| class="fandom-table"
+! colspan="3" |If there’s a man in Germany and a gent in Argentina, which of these countries has a lad in it?
+|-
+|SPAIN
+|MOROCCO
+|BANG'''LAD'''ESH
+|}
+
+==60%==
+Lee takes his bath on the same day each week according to this strict set of rules. Which day is Lee’s bath day?
+
+#No more than three days after the weekend
+#No day with an even number of letters
+#Never on a Wednesday
+
+Rule 1 removes Thursday and Friday, rule 2 removes Saturday, Sunday and Monday and rule 3 removes Wednesday leaving only Tuesday.
+
+==50%==
+Which word would fit in the grid to replace the question mark?
+{| class="fandom-table"
+|
+|A
+|B
+|C
+|D
+|-
+|A
+|
+|
+|
+|amend
+|-
+|B
+|
+|blurb
+|
+|
+|-
+|C
+|corona
+|
+|
+|
+|-
+|D
+|
+|
+|?
+|
+|}
+{| class="fandom-table"
+|'''drastic'''
+|deadly
+|drama
+|}
+The letter in the left-hand column dictates the starting letter and the letter in the top row dictates the end letter, so it needs to be a word beginning with D and ending in C.
+
+==45%==
+Bob has a collection of individual letters to use for the new sign on his antiques shop. There is one letter A, two letter Bs, three letter Cs and so on. Which of these signs could he not make?
+
+[[File:Antiques.png|frameless]]
+
+'''A'''NTIQUE '''B'''ITS '''A'''ND '''B'''O'''B'''S has two As and three Bs – and Bob only has one A and two Bs available to him.
+
+==40%==
+Which two letters are missing from this musical instrument?
+
+'''U'''K'''U'''L'''E'''L'''E'''
+
+==35%==
+You count down from 10 to 1, pausing for one second between each number. How many seconds in total will you have paused for by the time you complete your countdown?
+
+There are 9 pauses between 10 and 1.
+
+==30%==
+You wake at 11 and stay awake until you go to sleep at midnight. What’s the minimum number of hours that you’re awake?
+
+The question does not indicate whether it is 11am or 11pm and there is only 1 hour between 11pm and midnight.
+
+==25%==
+These groups of letters share a pattern. Which of those below could also be included in the list?
+{| class="fandom-table"
+! colspan="4" |EOT  MRA   RAE   ???
+|-
+|CRA
+|MIA
+|'''GEL'''
+|RAB
+|}
+They are all body parts backwards. TOE, ARM, EAR and LEG.
+
+==20%==
+{| class="fandom-table"
+! colspan="2" |Daisy doesn’t not not not dislike dancing…<br>Does she like dancing?
+|-
+|YES
+|'''NO'''
+|}
+The ‘nots’ and the ‘dis’ cancel each other out so the sentence essentially reads ‘Daisy doesn’t like dancing’.
+
+== 15% ==
+{| class="fandom-table"
+! colspan="4" |Ignoring syllables, logically which of these words does not belong with the others?
+|-
+|VA'''CAT'''E
+|'''DOG'''MATIC
+|TRANSFORM
+|H'''OWL'''ER
+|}
+All the other words contain the names of animals.
+
+== 10% ==
+The following numbers all contain the same number of vowels as consonants. What would be the next number in the sequence?
+
+FOUR, FIVE, NINE, ELEVEN, FOURTEEN, '''EIGHTEEN'''
+
+15, 16 and 17 all have an odd number of letters, but 18 has four of each.
+
+== 5% ==
+What famous quote is being represented here?
+
+[[File:All for one.png|frameless]]
+
+'''All for one and one for all''': The scoreboard on the left are all 4-1 and the scoreboard on the right has one 4 all.
+
+== 1% ==
+If you double '''t'''he number of '''t'''imes the word '''t'''riple appears, how many '''t'''’s would '''t'''here be in '''t'''his ques'''t'''ion?
+
+'''9'''
+[[Category:1% Club Season 3]]

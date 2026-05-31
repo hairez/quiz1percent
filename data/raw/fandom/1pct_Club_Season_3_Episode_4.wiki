@@ -1,0 +1,118 @@
+==90%==
+Which of these lines is the longest?
+
+[[File:Longest line.png|frameless]]
+
+'''C'''
+
+==80%==
+{| class="fandom-table"
+! colspan="4" |Which of these words is a TOUGH anagram?
+|-
+|DIFFICULT
+|'''OUGHT'''
+|KNOW
+|SCREEN
+|}
+It’s an anagram of the word TOUGH.
+
+==70%==
+Which pair is the odd one out?
+
+[[File:Rat iron.png|frameless]]
+
+In all the other pairings, the word on the left features in the word on the right. Pen = Penguin, Ball = Balloon, Sock = Socket but Rat does not fit with Iron.
+
+==60%==
+Which animal replaces the question mark?
+
+[[File:Animal sequence.png|frameless]]
+
+The number of legs on the animals increase from 2 to 4 to 6, so the next animal in the sequence needs to have 8 legs.
+
+==50%==
+What is the time on the clock below?
+
+[[File:Time.png|frameless]]
+
+'''8:15'''
+
+==45%==
+How many legs are there in total in this picture?
+
+[[File:Leg table.png|frameless]]
+
+'''20''': Dog: 4, Chair: 4, Woman: 2, Table: 4, Boy: 2, Chair: 4.
+
+==40%==
+Team 1: '''O'''wen, '''N'''adia '''E'''mma<br>Team 2: '''T'''ina, '''W'''esley, '''O'''ctavia<br>Team 3: '''T'''aylor, '''H'''enrietta, '''R'''upinder, '''E'''dith, '''E'''sther<br>Team 4: ?, '''O'''scar, '''U'''mar, '''R'''obyn
+{| class="fandom-table"
+! colspan="4" |Who is the missing player on team 4?
+|-
+|Xanthe
+|Tanisha
+|Harriet
+|'''Freya'''
+|}
+The first letter of each person’s name spells out the team number.
+
+==35%==
+Which vowel is used the most times in the lyrics below?
+{| class="fandom-table"
+! colspan="5" |Old M'''a'''cDon'''a'''ld h'''a'''d '''a''' f'''a'''rm, E-I-E-I-O. '''A'''nd on th'''a'''t f'''a'''rm he h'''a'''d some cows, E-I-E-I-O.
+|-
+|'''A'''
+|E
+|I
+|O
+|U
+|}
+
+==30%==
+[[File:Typewriter.png|frameless]]
+{| class="fandom-table"
+! colspan="4" |The bottom two rows of this old typewriter have stopped working. Which of these is the only word that CANNOT be typed on it?
+|-
+|TYPEWRITER
+|RUPTURE
+|PRETTIER
+|'''EQUIPPED'''
+|}
+EQUIPPED contains a D which is on one of the rows on the typewriter that is broken.
+
+==25%==
+Amir plays three notes on his clarinet. If Jacob clashes his cymbals twice every time Jo plays a flute note and Jo plays five times as many notes as Amir, how many times does Jacob clash?
+
+Amir plays three notes. Jo plays five times as many as Amir – i.e. 15 notes. Jacob clashes his cymbals twice every time Jo plays a note, so it is 15 x 2 = '''30'''.
+
+==20%==
+How many words in the sentence below contain only the letters D, G and vowels and no other letters?
+
+'''Doug dug''' a hole. He '''digged''' the hole he’d '''dug'''. '''Doug''' has a '''dog''' called Dave who '''dug''' a deeper hole. '''Doug''' didn’t '''dig''' the hole he’d '''dug''' anymore.
+
+==15%==
+These two overlapping circles have three separate enclosed areas. If you add another circle of the same size, what is the maximum number of enclosed areas that you could achieve?
+
+[[File:Venn diagram.png|frameless]]
+
+'''Seven'''
+
+==10%==
+Lee found a battered old dartboard in the attic, with some of the numbers missing. Three of the numbers still on the board are upside down. What are those three numbers?
+
+[[File:Dartboard.png|frameless]]
+
+The 2 is obviously upside down and the other two must be the 6 and 9 – which look like each other when upside down.
+
+==5%==
+If you remove all the underlined letters from the sentence below, what word can be spelt if you rearrange all of the remaining letters?
+
+[[File:Radiator.png|frameless]]
+
+'''RADIATOR'''
+
+==1%==
+What two letters can be placed before both of the below to make completely new words?
+
+'''VI'''CAR<br>'''VI'''ABLE
+[[Category:1% Club Season 3]]

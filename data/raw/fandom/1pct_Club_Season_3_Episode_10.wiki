@@ -1,0 +1,180 @@
+==90%==
+Which two-word phrase is pictured here?
+
+[[File:Cold feet.png|frameless]]
+
+'''Cold feet'''
+
+==80%==
+{| class="fandom-table"
+! colspan="4" |Which of these creatures has the same number of letters in its name as the number of legs it has?
+|-
+|SPIDER
+|DUCK
+|'''GOAT'''
+|CAT
+|}
+GOAT has four letters and four legs.
+
+==70%==
+Answer the question below.
+
+An '''Engilshman''', an Irishman and a Scotsman walk into a bar. Which one is wrong?
+
+Englishman is spelt wrong.
+
+==60%==
+{| class="fandom-table"
+! colspan="4" |Which of these country names only uses letters from the first half of the alphabet?
+|-
+|Libya
+|Belgium
+|France
+|'''Fiji'''
+|}
+There are 26 letters in the alphabet and the 13th letter is M so all the letters need to be between A and M.
+
+==50%==
+Which of these puzzle pieces doesn’t belong here?
+
+[[File:Charles.png|frameless]]
+
+'''E'''
+
+==45%==
+What time is it in this picture?
+
+[[File:Mirror time.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |What time is it in this picture?
+|-
+|'''10:10'''
+|02:50
+|02:10
+|}
+
+==40%==
+Answer this question:
+
+In this capital cities quiz…<br>France: ?????<br>Norway: ????<br>Spain: ??????<br>Central African Republic: ??????<br>We know that France is Paris, Norway is Oslo, and Spain is Madrid. 
+{| class="fandom-table"
+! colspan="3" |What is Central African Republic?
+|-
+|'''Bangui'''
+|Kinshasa
+|Addis  Ababa
+|}
+No knowledge is needed. From the examples, the number of question marks corresponds to the number of letters in the answer, so it has to be Bangui.
+
+== 35% ==
+If you spell out the numbers from 1-20, which number has the most letters in its name?
+
+'''Seventeen'''
+
+== 30% ==
+Other than the word ‘THE’, what connects these images?
+
+[[File:Newspaper.png|frameless]]
+
+'''Newspapers''': The Sun, The Mirror, The Mail.
+
+==25%==
+How many squares of FOUR chips can be found in this picture?
+
+[[File:Chips.png|frameless]]
+
+'''6'''
+
+==20%==
+You enter this roundabout from the northeast and take the third turn off it. Realising you have made a mistake, you return to the roundabout from this turn, and take the third turn again. In which direction are you now heading?
+
+[[File:Roundabout.png|frameless]]
+
+'''Southwest''': You joined from the bottom, went right, returned from the right and took the third exit which is southwest.
+
+==15%==
+{| class="fandom-table"
+! colspan="3" |The colourful couple Mr and Mrs Scarlet have six pet dogs – Rocket, Olaf, Yogi, Gnasher, Buster and Iggy. They’ve just welcomed a new dog to the family. What will they name it?
+|-
+|'''Venus'''
+|Mars
+|Jupiter
+|}
+The names all start with letters that represent the colours of the rainbow – R for Red, O for Orange, Y for Yellow, G for Green, B for Blue and I for Indigo. The new dog’s name must start with V for Violet.
+
+==10%==
+The opposite faces of a single die add up to 7. What is the total of the faces that CANNOT be seen on these dice?
+
+[[File:Dice.png|frameless]]
+
+You can see all the numbers 1 to 6 once here and they add up to 21. The opposite faces of the dice will add up to the same number.
+
+==5%==
+{| class="fandom-table"
+! colspan="7" |In this letter grid, only three letters of the alphabet appear just once. What number do those three letters spell?
+|-
+|A
+|X
+|E
+|V
+|U
+|'''T'''
+|S
+|-
+|B
+|Y
+|Q
+|P
+|M
+|L
+|R
+|-
+|C
+|Z
+|R
+|Y
+|X
+|K
+|Q
+|-
+|D
+|A
+|S
+|Z
+|'''W'''
+|J
+|P
+|-
+|E
+|B
+|N
+|U
+|V
+|I
+|'''O'''
+|-
+|F
+|C
+|D
+|F
+|G
+|H
+|N
+|-
+|G
+|H
+|I
+|J
+|K
+|L
+|M
+|}
+'''TWO'''
+
+== 1% ==
+In this puzzle, what four-letter word replaces the missing part of this sentence?
+
+Mr Owl ate my metal '''worm'''
+
+It’s a palindrome so the sentence reads the same backwards as forwards.
+[[Category:1% Club Season 3]]

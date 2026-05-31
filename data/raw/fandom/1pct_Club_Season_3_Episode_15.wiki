@@ -1,0 +1,115 @@
+==90%==
+What food is represented here?
+
+[[File:Hot dog.png|frameless]]
+
+'''Hot Dog''' is the answer.
+
+==80%==
+Which name comes next in this sequence?
+{| class="fandom-table"
+! colspan="3" |'''A'''shley '''B'''anjo   '''C'''harles '''D'''ickens   '''E'''lla '''F'''itzgerald
+|-
+|Gwyneth Paltrow
+|'''G'''loria '''H'''unniford
+|Greta Thunberg
+|}
+
+The sequence of first and last names is in alphabetical order, which is the answer.
+
+==70%==
+{| class="fandom-table"
+! colspan="4" |A mixologist creates her special cocktail, the One Percenter, made of three ingredients. If it consists of one-fifth vodka and 60% lemonade, how much of it is the final ingredient, strawberry liqueur?
+|-
+|Two-fifths
+|'''20%'''
+|Two-thirds
+|35%
+|}
+The writing in bold is the answer.
+
+==60%==
+{| class="fandom-table"
+! colspan="3" |Which of these countries literally contains both a ‘lizard’ and ‘newts’?
+|-
+|Brazil
+|New Zealand
+|'''Switzerland'''
+|}
+‘Lizard newts’ is an anagram of Switzerland, which is the answer.
+
+==50%==
+Take a look at this and answer the question:
+
+How many times is the word '''LORRY''' written on the screen? (Don’t forget to count every instance of the word '''LORRY''').<br>Red '''LORRY''', Yellow '''LORRY''', Red '''LORRY''', Yellow '''LORRY''', SORRY, RED LOLLY, YELLOW LOLLY, RED SOLLY, YELLOW ROLLY, '''LORRY''', SORRY.<Br>Don’t forget to count every '''LORRY'''.<Br>Every '''LORRY''' counts.
+
+'''9''' is the answer.
+
+==45%==
+How many DIFFERENT numbers on this keypad must you press to spell the name of the city NEWCASTLE?
+
+[[File:Keypad2.png|frameless]]
+
+'''7''': N = 6, E = 3, W = 9, C and A = 2, S = 7, T = 8, L = 5 is the answer.
+
+==40%==
+Answer this:
+
+[[File:Dots.png|frameless]]
+
+'''Five'''
+
+==35%==
+What item of clothing can you add below to make a commonly used word?
+
+AD'''DRESS''' is the answer.
+
+==30%==
+{| class="fandom-table"
+! colspan="4" |If New Year’s Day is a Sunday, which of these dates can’t fall on a weekend?
+|-
+|February 5th
+|May 14th
+|August 20th
+|'''November 31st'''
+|}
+There are only 30 days in November.
+
+==25%==
+If all the silent letters from these words are put together, what word is spelled?
+
+ANC'''H'''OR G'''U'''ITAR '''M'''NEMONIC CRUM'''B''' G'''U'''ILD '''G'''NAT
+
+'''HUMBUG''' is the answer.
+
+==20%==
+How many characters – that means letters, numbers and punctuation marks – are there in the following?
+
+Theremightbe37charactersinthissentence.
+
+'''39''' is the answer.
+
+==15%==
+What do you get if you remove the wrong letters from his sequence?
+
+<s>W</s> '''A''' <s>R</s> <s>O</s> '''K''' '''I''' <s>N</s> '''S''' <s>G</s> '''S''' is the answer.
+
+==10%==
+What is the unusual pattern that links all these football clubs?
+
+'''C'''HARLTON ATHLETI'''C'''<br>'''L'''IVERPOO'''L'''<Br>'''A'''STON VILL'''A'''<Br>'''N'''ORTHAMPTON TOW'''N'''
+
+The answer is that they all have a name that begins and ends with the same letter.
+
+==5%==
+Fill in the blank:
+
+W8ED<br>T1D<Br>OF10<Br>NE'''2'''RK
+
+The answer is that when the numbers are spelt out in letters, words are formed – w'''eight'''ed, t'''one'''d, of'''ten''' and then ne'''two'''rk.
+
+== 1% ==
+In a room of 100 people, 99% are left-handed. How many left-handed people have to leave the room to bring that percentage down to 98%?
+
+The answer is that if 50 left-handed people leave, of the 50 people that now remain 49 are left-handed – which equals 98%.
+[[Category:1% Club Season 3]]

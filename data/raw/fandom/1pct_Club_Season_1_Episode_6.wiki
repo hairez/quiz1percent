@@ -1,0 +1,129 @@
+==Example Question==
+The following sentence is a code. If you can crack the code it will be really clear that it is referring to an animal. What is the animal?
+
+SEE O DOUBLE U
+
+'''COW'''
+
+== 90% ==
+Have a close look at these pictures of a penguin, eagle and pelican. Which one cannot be real?
+
+[[File:Birds.png|frameless]]
+
+Penguins can’t fly
+
+==80%==
+{| class="fandom-table"
+! colspan="5" |Who is the odd one out?
+|-
+|A) Arthur
+|B) Bianca
+|'''C) Felix'''
+|D) Dorothy
+|E) Edward
+|}
+The names all begin with the same letter as their option, apart from C) Felix
+
+== 70% ==
+Which is the odd one out?
+
+[[File:Coat.png|frameless]]
+
+Cat, Bat, Hat and Mat all rhyme. Coat doesn’t
+
+== 60% ==
+[[File:Chicken egg.png|frameless]]
+{| class="fandom-table"
+! colspan="3" |In this question, the chicken comes before the egg. But are there…
+|-
+|'''More chickens'''
+|More eggs
+|The same number of chickens and eggs
+|}
+You don’t need to count them. The question says ‘the chicken comes before the egg’ and the paragraph ends with chicken, so there is one more chicken than there are eggs.
+
+==50%==
+Which two letters are missing from all of the following?
+
+'''CA'''NADA<br>'''CA'''MEROON<br>AMERI'''CA'''
+
+==45%==
+{| class="fandom-table"
+! colspan="2" |Imagine there is a light switch at the bottom of the stairs and one at the top of the stairs. They control the same light. The light is currently off. If you flick each switch three times, will the light be…
+|-
+|On
+|'''Off'''
+|}
+Flicking the top switch three times will turn it on, then off and then on again. If you then flick the bottom switch three times it will turn it off, then on and then finally off.
+
+==40%==
+{| class="fandom-table"
+! colspan="4" |Have a careful think about these letters. On reflection, which is the odd one out?
+|-
+|W
+|X
+|Y
+|'''Z'''
+|}
+
+If you place a mirror next to each letter, they all look the same in the reflection except Z which would appear backwards.
+
+== 30% ==
+Here is a picture showing someone taking a photograph of themselves in the mirror. In reality, is the person’s watch on their left wrist or their right wrist?
+
+[[File:Wrist.png|frameless]]
+
+The image in front of the mirror is just reflected not reversed or switched left to right. So the watch looks like it is on his left wrist and it is on his left wrist.
+
+==35%==
+What number do you get if you multiply all the numbers on a telephone keypad together? 
+
+You need to remember there is a zero on a keypad. As soon as you multiply anything by zero, the answer will always by zero.
+
+==25%==
+What letter can you add to the word ‘are’ to turn it from a one-syllable word to a three-syllable word?
+
+Add an A to ‘are’ and it becomes ‘area’.
+
+==20%==
+A line of ducklings is swimming home. There are two ducklings ahead of a duckling, two ducklings behind a duckling, and one duckling in the middle. What is the smallest number of ducklings there could be?
+
+'''3''': One at the back with two ahead of it, one at the front with two behind, and one in the middle.
+
+==15%==
+{| class="fandom-table"
+! colspan="4" |‘Huan’ is located in which country?
+|-
+|South Korea
+|'''Lithuania'''
+|Thailand
+|Sierra Leone
+|}
+‘Huan’ is not located in any of those countries, it is simply the letters in the middle of Lithuania.
+
+==10%==
+{| class="fandom-table"
+! colspan="5" |Which is the odd word out?
+|-
+|Xylophone
+|Balfour
+|Freight
+|Feminine
+|'''Dangerous'''
+|}
+All the other words on the list end in a number, but ‘dangerous’ does not.
+
+== 5% ==
+There is a secret six-letter word hidden below. What is the word?
+
+[[File:Secret.png|frameless]]
+
+'''SECRET'''
+
+==1%==
+What is the next letter in this sequence?
+
+1. f '''f'''irst<br>2. e s'''e'''cond<br>3. i th'''i'''rd<Br>4. r fou'''r'''th<br>5. '''h''' fift'''h'''
+
+f is the first letter in first, e is the second letter in second, i is the third letter in third, r is the fourth letter in fourth and h is the fifth letter in fifth
+[[Category:1% Club Season 1]]

@@ -1,0 +1,175 @@
+==90%==
+{| class="fandom-table"
+!
+|S
+|P
+|R
+|'''E'''
+|A
+|D
+|-
+|T
+!
+|R
+!
+|'''X'''
+!
+|E
+|-
+|W
+|H
+|I
+|P
+|'''P'''
+|E
+|T
+|-
+|I
+!
+|O
+!
+|'''L'''
+!
+|E
+|-
+|N
+|E
+|R
+|V
+|'''O'''
+|U
+|S
+|-
+!
+!
+!
+!
+|'''R'''
+!
+|T
+|-
+|A
+!
+|H
+|E
+|'''E'''
+|D
+|S
+|}
+{| class="fandom-table"
+! colspan="3" |Sara has almost finished this crossword and just has 7 down left to fill in. The clue is: Investigate. Which of these is the correct answer?
+|-
+|'''EXPLORE'''
+|EXAMINE
+|EXPOSE
+|}
+Only A fits in the grid.
+
+== 80% ==
+Spot the difference between these two images.
+
+[[File:Dog 2.png|frameless]]
+
+'''The image on the right has an extra dog.'''
+
+== 70% ==
+Which of these is incorrect?
+
+[[File:Ducklonging.png|frameless]]
+
+Change the images to words to make new words. DUCKLONGING is not a word.
+
+== 60% ==
+Although some have been rotated, which two of these flags are exactly the same?
+
+[[File:Flag.png|frameless]]
+
+'''A and C'''
+
+== 50% ==
+Eight people are in a circle, either standing up (U) or sitting down (D) as shown below. everyone who is standing up sits down and vice versa. How many people are now standing?
+
+[[File:Sitting.png|frameless]]
+
+'''5''': You just needed to count how many people were sitting down, as they will end up standing.
+
+== 45% ==
+Have a look at this bathroom floor covered in square tiles. If each square tile features eight triangles, how many square tiles were used to cover this floor?
+
+[[File:Tile.png|frameless]]
+
+'''20'''
+
+== 40% ==
+If there were no vowels at all, what would be the 13th letter of the alphabet?
+
+B, C, D, F, G, H, J, K, L, M, N, P and '''Q'''.
+
+== 35% ==
+{| class="fandom-table"
+! colspan="3" |Which of the following words is still a recognised word if you substitute the first letter for the next letter in the alphabet and the last letter for the previous letter in the alphabet?
+|-
+|BRINK
+|CROWN
+|'''CREST'''
+|-
+|CRINJ
+|DROWM
+|'''DRESS'''
+|}
+
+== 30% ==
+Below is the recipe for a Big Mack burger.
+
+[[File:Big Mack.png|frameless]]
+
+If I have nine whole buns, nine cheese slices, eight tomato slices and ten patties, what is the maximum number of Big Mack burgers I can make?
+
+Each burger has two patties so ten patties limit the number of burgers to '''five'''.
+
+== 25% ==
+How many pairs of anagrams are there in the following sentence?
+
+Alice, Dan, Celia and Enid hoped to dine well on the plane from Nepal.
+
+'''4''': Alice-Celia; Dan-and; Enid-dine; plane-Nepal.
+
+== 20% ==
+What number replaces the question mark in the sequence below?
+
+7 8 5 5 3 4 4 '''6''' 9 7 8 8
+
+J F M A M J J '''A''' S O N D
+
+The sequence is the number of letters in the names of the months in a calendar year. The question mark represents August and there are six letters in August.
+
+== 15% ==
+In the puzzle below, what four words replace the question mark?
+
+Shatter the frozen water = Break the ice
+
+You can’t assess a novel by its dust jacket = You can’t judge a book by its cover
+
+Illustrious intellects imagine identically = '''Great minds think alike'''
+
+== 10% ==
+If you change the letter at the beginning of the first word, the letter in the middle of the second word and the letter at the end of the third word, they all now have something in common. What is it?
+
+CAT   BOATS  SCARE
+
+'''H'''AT   BO'''O'''TS   SCAR'''F'''
+
+'''Clothes'''
+
+== 5% ==
+You have a pack of 52 playing cards in your hand and decide to sort them into alphabetical order. The ACE of CLUBS, ACE of DIAMONDS, ACE of HEARTS and ACE of SPADES are the first four cards you place on the table. If you carried on this sequence, what would be the LAST card you would place down?
+
+'''TWO of SPADES'''
+
+== 1% ==
+Answer the puzzle below.
+
+How many dots (i.e. “.”) – including any used in punctuation and letters… – are used in writing this question?
+
+'''17'''
+[[Category:1% Club Season 4]]
